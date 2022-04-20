@@ -1,0 +1,18 @@
+{
+  "packages": [
+    "applications/*",
+    "packages/*"
+  ],
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "version": "38.0.0",
+  "command": {
+    "publish": {
+      "registry": "https://www.myget.org/F/pec-lib/auth/a577c1c3-2801-4035-8cfc-6e412f880e25/npm/",
+      "contents": "build"
+    },
+    "version": {
+      "conventionalCommits": true
+    }
+  }
+}

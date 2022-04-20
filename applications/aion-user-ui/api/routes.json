@@ -1,0 +1,5 @@
+{
+  "/spapi/*": "/$1",
+  "/api/v3.00/organizations\\(:organizationId\\)?*": "/organizations/:organizationId",
+  "/api/v2/*": "/$1"
+}

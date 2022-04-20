@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Veriforce</title>
+</head>
+
+<body>
+  <form action="%PUBLIC_URL%/dump.html" method="GET">
+    <p>
+      <input type="text" name="foo" />
+    </p>
+    <p>
+      <input type="text" name="bar" />
+    </p>
+    <p>
+      <input type="text" name="baz" />
+    </p>
+    <p>
+      <input type="submit" />
+    </p>
+  </form>
+  <input type="hidden" id="questionSectionDropdown_NavDDL" />
+  <input type="hidden" id="HiddenQuestionSectionID" />
+  <pre id="diagnostic"></pre>
+  <script>
+    function NavDDlEvent() {
+      var nextSectionId = document.getElementById('questionSectionDropdown_NavDDL').value;
+      window.location.search = '?SSQv4Section=' + nextSectionId;
+    };
+    document.getElementById('HiddenQuestionSectionID').value = window.location.search.match(/SSQv4Section=(\d+)/i)[1];
+    document.getElementById('diagnostic').innerHTML = JSON.stringify(window.location, null, '  ');
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,6 @@
+{
+  "/spapi/*": "/$1",
+  "/api/v2/*": "/$1",
+  "/api/v1/oshaviolations?$filter=OrganizationViolations/any(x: false)?*": "/notMatched",
+  "/api/v3.01/organizationOshaViolations?*": "/matchedViolations"
+}

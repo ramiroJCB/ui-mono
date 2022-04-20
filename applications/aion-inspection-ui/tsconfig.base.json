@@ -1,0 +1,14 @@
+{
+  "extends": "../tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "@pec/aion-ui-core/*": ["../../../packages/aion-ui-core/src/*"],
+      "@pec/aion-ui-components/*": ["../../../packages/aion-ui-components/src/*"],
+      "@pec/aion-ui-form/*": ["../../../packages/aion-ui-form/src/*"],
+      "@pec/aion-ui-i18next/*": ["../../../packages/aion-ui-i18next/src/*"],
+      "@pec/aion-ui-text-editor/*": ["../../../packages/aion-ui-text-editor/src/*"],
+      "@pec/aion-ui-odata/*": ["../../../packages/aion-ui-odata/src/*"]
+    }
+  }
+}

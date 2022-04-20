@@ -1,0 +1,9 @@
+{
+  "/api/:v/classReservationAggregates*": "/classReservationAggregates",
+  "/api/:v/reservationMetrics*": "/reservationMetrics",
+  "/api/:v/reservations\\(:reservationId\\)*": "/reservations/:reservationId",
+  "/api/:v/reservations": "/reservations",
+  "/api/:v/classes*": "/trainingClasses",
+  "/api/:v/*": "/$2",
+  "/spapi/*": "/$1"
+}

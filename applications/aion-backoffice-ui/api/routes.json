@@ -1,0 +1,8 @@
+{
+  "/spapi/*": "/$1",
+  "/api/v2/organizations?search=:q&page=:_page&pageSize=:_limit": "/organizations?q=:q&_page=:_page&_limit=:_limit",
+  "/api/v3.00/backoffice/organizationFeatures": "/organizationFeatures",
+  "/api/v3.01/globalOrganizationFeatures": "/organizationFeatures",
+  "/api/v3.00/organizations\\(:organizationId\\)?*": "/organizations/:organizationId",
+  "/api/v*/*": "/$2"
+}

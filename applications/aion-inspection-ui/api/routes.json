@@ -1,0 +1,19 @@
+{
+  "/spapi/*": "/$1",
+  "/api/v2/*": "/$1",
+  "/api/v2/organizations/:organizationId/contractors": "/contractors",
+  "/api/v3.01/veriforceOrganizationLinks*": "/veriforceOrganizationLinks",
+  "/api/v3.01/contractorTasks*": "/navCount",
+  "/api/v3.01/regionalContractorPeriods*": "/navCount",
+  "/api/v3.01/operationalContractorPeriods*": "/navCount",
+  "/api/v3.01/safetyProgramRequirements*": "/navCount",
+  "/api/inspections/v3.01/inspectionSections?*": "/inspectionSections",
+  "/api/inspections/v3.01/inspectionSections\\(:inspectionSectionId\\)*": "/inspectionSections",
+  "/api/inspections/v3.01/inspections?*": "/inspections",
+  "/api/inspections/v3.01/inspections\\(:inspectionId\\)*": "/inspections/:inspectionId",
+  "/api/inspections/v3.01/forms*": "/forms",
+  "/api/inspections/v3.01/sections?*": "/sections",
+  "/api/inspections/v3.01/answers?*": "/answers",
+  "/api/v3.01/businessUnits*": "/businessUnits",
+  "/api/v3.00/organizations\\(:organizationId\\)*": "/organizations/:organizationId"
+}

@@ -1,0 +1,4 @@
+export AION_DOCKER_IMAGE_NAME="aion-reporting-ui"
+export AION_DOCKER_NETWORK_NAME="vagrant_pec-network"
+export AION_DOCKER_PORTS="5035:5035"
+export AION_DOCKER_FILE="Dockerfile"

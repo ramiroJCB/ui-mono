@@ -1,0 +1,11 @@
+import thunkMiddleware from 'redux-thunk';
+import { applyMiddleware, createStore } from 'redux';
+import { composeWithDevTools } from 'redux-devtools-extension';
+import { rootReducer } from 'combineReducers';
+
+const shouldShowDevTools = ['localhost:3000', 'dev.pecdata.net'].includes(window.location.host);
+
+export const store = createStore(
+  rootReducer,
+  shouldShowDevTools ? composeWithDevTools(applyMiddleware(thunkMiddleware)) : applyMiddleware(thunkMiddleware)
+);

@@ -1,0 +1,4 @@
+export AION_DOCKER_IMAGE_NAME="aion-registration-ui"
+export AION_DOCKER_NETWORK_NAME="vagrant_pec-network"
+export AION_DOCKER_PORTS="5026:5026"
+export AION_DOCKER_FILE="Dockerfile"

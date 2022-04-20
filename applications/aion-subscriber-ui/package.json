@@ -1,0 +1,73 @@
+{
+  "name": "aion-subscriber-ui",
+  "version": "38.0.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "homepage": "/organizations",
+  "resolutions": {
+    "@types/react": "16.9.11"
+  },
+  "dependencies": {
+    "@material-ui/core": "4.11.0",
+    "@material-ui/icons": "4.9.1",
+    "@pec/aion-ui-components": "^38.0.0",
+    "@pec/aion-ui-core": "^38.0.0",
+    "@pec/aion-ui-i18next": "^38.0.0",
+    "axios": "0.18.0",
+    "moment": "2.24.0",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "react-redux": "7.2.0",
+    "react-router-dom": "5.1.2",
+    "react-scripts": "3.4.0",
+    "redux": "4.0.4",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "2.3.0"
+  },
+  "devDependencies": {
+    "@types/react": "16.9.11",
+    "@types/react-dom": "16.9.4",
+    "@types/react-redux": "7.1.7",
+    "@types/react-router-dom": "4.3.5"
+  },
+  "jest": {
+    "coverageThreshold": {
+      "global": {
+        "branches": 70,
+        "functions": 70,
+        "lines": 70,
+        "statements": 70
+      }
+    },
+    "collectCoverageFrom": [
+      "src/**/*.{ts,tsx}"
+    ],
+    "moduleNameMapper": {
+      "^@pec/aion-ui-components/(.*)$": "<rootDir>/../../packages/aion-ui-components/src/$1",
+      "^@pec/aion-ui-core/(.*)$": "<rootDir>/../../packages/aion-ui-core/src/$1",
+      "^@pec/aion-ui-deprecated/(.*)$": "<rootDir>/../../packages/aion-ui-deprecated/src/$1",
+      "^@pec/aion-ui-form/(.*)$": "<rootDir>/../../packages/aion-ui-form/src/$1",
+      "^@pec/aion-ui-i18next/(.*)$": "<rootDir>/../../packages/aion-ui-i18next/src/$1",
+      "^@pec/aion-ui-odata/(.*)$": "<rootDir>/../../packages/aion-ui-odata/src/$1",
+      "^@pec/aion-ui-text-editor/(.*)$": "<rootDir>/../../packages/aion-ui-text-editor/src/$1"
+    }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 10",
+    "not op_mini all"
+  ],
+  "scripts": {
+    "build:fixtures": "tsc -b ./fixtures",
+    "watch:fixtures": "npm run build:fixtures -- -w",
+    "start:api": "nodemon --delay 1 --watch api api",
+    "start:js": "react-app-rewired start",
+    "start": "npm-run-all -p watch:* start:*",
+    "proxy:dev": "cross-env HTTPS=true PROXY=https://dev.pecdata.net npm run start:js",
+    "proxy:beta": "cross-env HTTPS=true PROXY=https://beta.pecdata.net npm run start:js",
+    "proxy:vagrant": "cross-env PROXY=http://vagrant npm run start:js",
+    "build": "react-app-rewired build",
+    "test": "react-scripts test"
+  }
+}

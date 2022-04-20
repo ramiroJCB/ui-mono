@@ -1,0 +1,12 @@
+{
+  "/spapi/*": "/$1",
+  "/api/v3.01/*": "/$1",
+  "/api/v3.01/formSections*": "/formSections",
+  "/api/v3.01/formElements*": "/formElements",
+  "/api/v3.01/veriforceOrganizationLinks*": "/veriforceOrganizationLinks",
+  "/api/v3.01/contractorTasks*": "/navCount",
+  "/api/v3.01/regionalContractorPeriods*": "/navCount",
+  "/api/v3.01/operationalContractorPeriods*": "/navCount",
+  "/api/v3.01/safetyProgramRequirements*": "/navCount",
+  "/api/v3.00/organizations\\(:organizationId\\)*": "/organizations/:organizationId"
+}

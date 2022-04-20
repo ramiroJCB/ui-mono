@@ -1,0 +1,8 @@
+{
+  "/api/trainingCompliance/v3.01/trainingRequirements\\(:trainingRequirementId\\)": "/trainingRequirements/:trainingRequirementId",
+  "/api/trainingCompliance/v3.01/workGroupJobTypeEmployeeJobTypeTrainingRequirements?*": "/assignedEmployeeReport",
+  "/api/trainingCompliance/v3.01/*": "/$1",
+  "/api/v3.00/organizations\\(:organizationId\\)?*": "/organizations/:organizationId",
+  "/spapi/*": "/$1",
+  "/api/v2/*": "/$1"
+}

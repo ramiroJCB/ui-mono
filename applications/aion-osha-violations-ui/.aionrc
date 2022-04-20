@@ -1,0 +1,4 @@
+export AION_DOCKER_IMAGE_NAME="aion-osha-violations-ui"
+export AION_DOCKER_NETWORK_NAME="vagrant_pec-network"
+export AION_DOCKER_PORTS="5070:5070"
+export AION_DOCKER_FILE="Dockerfile"

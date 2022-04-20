@@ -1,0 +1,1735 @@
+{
+  "alert": {
+    "taskThread": {
+      "taskMessages": {
+        "count": "{{count}} Message",
+        "count_plural": "{{count}} Messages"
+      }
+    }
+  },
+  "backoffice": {
+    "assignRemoveOrganizationFeatures": {
+      "allOrganizations": "All Organizations",
+      "clients": "Clients",
+      "contractors": "Contractors",
+      "removeFromOrganization": "Remove {{friendlyName}} from which organizations?",
+      "whichOrganizations": "Which organizations will receive {{friendlyName}}?"
+    },
+    "common": {
+      "assign": "Assign",
+      "cancel": "Cancel",
+      "remove": "Remove",
+      "save": "Save",
+      "yes": "Yes"
+    },
+    "homepage": {
+      "backOffice": "Back Office",
+      "welcome": "Welcome to the Back Office application!"
+    },
+    "manageGlobal": {
+      "globallyAssign": "Globally assign a feature to, or it remove from, ALL organizations.",
+      "manageGlobalFeatures": "Manage Global Features"
+    },
+    "manageOgranizationForm": {
+      "disabledMessage": "Disabled options must be managed in the legacy system"
+    },
+    "manageUser": {
+      "editGlobalPermissions": "Edit global permissions",
+      "enterOrganizationID": "Enter an Organization ID…",
+      "enterUserID": "Enter a User ID…",
+      "globalPermissons": "Global permissions",
+      "organizationScopedPermissions": "Organization-scoped permissions",
+      "selectByOrganization": "Select by Organization ID",
+      "selectByUserID": "Select by User ID",
+      "userScopedPermissions": "User-scoped permissions"
+    },
+    "manageUserActivities": {
+      "areYouSure": "Are you sure you want to change legacy permissions?",
+      "disabledOptions": "Disabled options are traditionally managed in the legacy system. However, you can select 'override' to enable and edit these options.",
+      "globalPermissions": "Global permissions for user: {{username}}",
+      "permissionsOnOrganization": "Permissions on organization: {{scopeId}} for user: {{username}}",
+      "permissionsOnUser": "Permissions on user: {{scopeId}} for user: {{username}}",
+      "uncheckingOverrid": "Unchecking override will reset a permission to its default level. Are you sure you want to change legacy permissions?"
+    },
+    "manageUserActivitiesRow": {
+      "audit": "Audit",
+      "override": "Override"
+    },
+    "organizationResults": {
+      "noOrganizations": "No Organizations match your search"
+    },
+    "results": {
+      "searchResults": "Search results"
+    },
+    "search": {
+      "email": "Email",
+      "id": "ID",
+      "name": "Name",
+      "username": "Username",
+      "veriforceOrganizationName": "Linked VeriSource Company"
+    },
+    "searchOrganizations": {
+      "findOrganizations": "Find an Organization",
+      "organizations": "Organizations",
+      "searchByName": "Search by Name"
+    },
+    "searchUsers": {
+      "findUser": "Find a User",
+      "searchByName": "Search by Name, Username, or Email",
+      "users": "Users"
+    },
+    "userResults": {
+      "noUsers": "No Users match your search"
+    }
+  },
+  "classes": {
+    "classDetails": {
+      "back": "Back to Classes",
+      "na": "n/a",
+      "trainingProvider": "Training Provider",
+      "translator": "Translator: "
+    },
+    "classesList": {
+      "availableSeats": "Available Seats",
+      "changeSortOrder": "Change Sort Order",
+      "instructorProvider": "Instructor - Provider",
+      "noClasses": "There are no classes with seats available.",
+      "price": "Price / Student",
+      "searchClassesForm": {
+        "city": "City",
+        "distance": "Distance",
+        "resultsText": "{{totalCount}} Results within {{distance}} miles of {{city}}, {{state}}",
+        "search": "Search",
+        "moreThan": "more than 500"
+      },
+      "state": "State",
+      "tooltipTitle": "Sort by Latest or Oldest",
+      "upcomingTrainingClasses": "Upcoming Training Classes"
+    },
+    "classHeader": {
+      "addReservation": "Add Reservation",
+      "contacts": "<0>Phone</0>: {{phoneNumber}} · <4>Email</4>: {{email}}",
+      "courseLength": "<0>Course Length</0>: {{hours}} hrs",
+      "location": "<0>Location</0>: {{stringAddress}} {{city}}, {{state}} {{zip}}",
+      "locationDescription": "<0>Location Description</0>: <2>{{description}}</2>",
+      "maxReservations": "{{studentCapacity}} Max Reservations",
+      "seatsAvailable": "{{totalSeatsAvailable}} Seats Available",
+      "seatsReserved": "{{totalSeatsReserved}} Seats Reserved",
+      "startDate": "Start Date: {{date}}{{time}}",
+      "supportedLanguages": "<0>Supported Languages</0>: {{languages}}"
+    },
+    "common": {
+      "cancel": "Cancel",
+      "changeDate": "change date",
+      "courseName": "Course Name",
+      "editReservation": "Edit Reservation",
+      "filters": "Filters",
+      "instructor": "Instructor",
+      "maxDateMessage": "Date cannot be in the future",
+      "organization": "Organization",
+      "reservationDetails": "Reservation Details",
+      "reservationsReport": "Reservations Report",
+      "save": "Save",
+      "seats": "Seats",
+      "startDate": "Start Date",
+      "trainingLocation": "Training Location",
+      "upcomingClasses": "Upcoming classes"
+    },
+    "filters": {
+      "basicCourses": "All Basic Courses",
+      "clear": "Clear",
+      "close": "Close",
+      "courses": "Courses",
+      "createdBy": "Created By",
+      "minDateMessage": "Date cannot be in the past",
+      "noOptions": "Type in a name and press Enter",
+      "supportedLanguages": "Supported Languages",
+      "topResults": "Top {{items}} results of {{total}} total",
+      "trainingProviders": "Training Providers"
+    },
+    "reservation": {
+      "commentsForInstructor": "Comments for Instructor",
+      "contactInformation": "Contact Information",
+      "email": "Email",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "newReservation": "New Reservation",
+      "phoneNumber": "Phone Number",
+      "seatsAvailable": "only {{max}} seats available"
+    },
+    "reservations": {
+      "addFirstReservation": "Add the first reservation for this class.",
+      "associate": "Associate",
+      "comments": "Comments",
+      "contact": "Contact",
+      "created": "Created",
+      "seatsReserved": "Seats Reserved",
+      "updatedBy": "Updated {{date}} by {{fullName}}"
+    },
+    "reservationsReport": {
+      "avgSeats": "Avg Seats",
+      "endDate": "End Date",
+      "list": {
+        "amount": "Res. Amount",
+        "changeSortOrder": "Change Sort Order",
+        "classDate": "Class Date",
+        "createdBy": "Created By",
+        "dateCreated": "Date Created",
+        "dateUpdated": "Date Updated",
+        "languages": "Languages",
+        "maxRes": "Max Res.",
+        "noReservations": "There are no Reservations matching your search criteria.",
+        "priceStudent": "Price/Student",
+        "provider": "Provider",
+        "sortBy": "Sort by Latest or Oldest",
+        "updatedBy": "Updated By"
+      },
+      "perReservation": "Per Reservation",
+      "perSeat": "Per Seat",
+      "reservationMetrics": "Reservation Amount",
+      "reservations": "Reservations",
+      "totalSeats": "Total Seats"
+    }
+  },
+  "common": {
+    "back": "Back"
+  },
+  "components": {
+    "badgeTooltip": "item requires action",
+    "badgeTooltip_plural": "items require action",
+    "topResults": "Top {{options}} results of {{total}} total"
+  },
+  "employee": {
+    "allEmployeesTable": {
+      "allLinkedEmployees": "All Linked Employees",
+      "noLinkedEmployeesFound": "No linked employees found.",
+      "unlink": "UNLINK"
+    },
+    "common": {
+      "cancel": "CANCEL",
+      "dob": "DOB",
+      "firstName": "First Name",
+      "id": "ID",
+      "lastName": "Last Name",
+      "link": "Link",
+      "links": "Links",
+      "origin": "Origin",
+      "pec": "PEC",
+      "source": "source",
+      "veriSource": "VeriSource"
+    },
+    "employees": "Employees",
+    "header": {
+      "allLinkedEmployees": "All linked employees",
+      "employeeManagement": "Employee Management",
+      "linkEmployees": "Link employees"
+    },
+    "linkEmployee": {
+      "employeesSuccessfullyLinked": "Employees Successfully linked.",
+      "employeesSuccessfullyUnlinked": "Employees Successfully unlinked.",
+      "thereWasAProblem": "There was a problem linking the employees.",
+      "thisEmployeeIsAlreadyLinked": "This employee is already linked. Choose a different employee."
+    },
+    "linkEmployees": {
+      "disclaimer": "To begin matching employees, please select one from the list on the left below. If the employee you are looking for is not shown in the suggestions, try manually searching for them in the VeriSource list on the right."
+    },
+    "linkingDialog": {
+      "confirmEmployeeLink": "Confirm Employee Link",
+      "theseEmployeesWillBeLinked": "These Employees will be linked, and the PEC record will appear as the main result in the employee list"
+    },
+    "pecLink": {
+      "OriginPec": "1. Origin: PEC"
+    },
+    "tableHeader": {
+      "search": "Search"
+    },
+    "unlinkDialog": {
+      "theseTwoEmployees": "These two employees are not the same person and will be unlinked",
+      "unlinkEmployees": "Unlink Employees",
+      "yesUnlink": "YES, UNLINK"
+    },
+    "verisourceLink": {
+      "originVeriSource": "2. Origin: VeriSource"
+    },
+    "verisourceNoResults": {
+      "chooseADifferentPecEmployee": "Choose a different PEC employee or search VeriSource employees to find a match.",
+      "noMatches": "No matches were detected for <1>{{traineeFirstName}} {{traineeLastName}}</1>.<3></3>"
+    }
+  },
+  "eSignature": {
+    "breadcrumbs": {
+      "viewDocument": "View Document"
+    },
+    "common": {
+      "clientOrgName": "Client Org Name",
+      "completed": "Completed",
+      "contractorName": "Contractor Name",
+      "dateLastUpdated": "Date Last Updated",
+      "documentName": "Document Name",
+      "documentStatus": "Document Status",
+      "eSignatures": "eSignatures",
+      "na": "N/A",
+      "newDocument": "New Document",
+      "notSigned": "Not Signed",
+      "sender": "Sender",
+      "unknown": "Unknown",
+      "waitingForOthers": "Waiting For Others"
+    },
+    "components": {
+      "assigneeAssigned": "Assignee Assigned",
+      "fileIsTooBig": "File is too big",
+      "ownerAssigned": "Owner Assigned",
+      "pending": "Pending",
+      "unsupportedFileType": "Unsupported file type"
+    },
+    "contractors": {
+      "allReleasedContractors": "All Released Contractors",
+      "atLeastOneContractorRequired": "At least one contractor is required",
+      "contractors": "Contractors",
+      "selectContractors": "Select Contractors"
+    },
+    "envelope": {
+      "add": {
+        "chooseDocument": "Choose a Document",
+        "chooseEnvelopeTemplate": "Choose an Envelope Template",
+        "chooseRecipients": "Choose Recipients",
+        "documentUploadingFailed": "Failed to upload document.",
+        "documentWasAssigned": "Document has been assigned to the selected contractor(s).",
+        "errorOccurred": "An error has occurred.",
+        "noTemplatesAvailable": "There are no templates available on your account. To create a template, contact your Veriforce account representative.",
+        "oneDocumentMayBeUploaded": "Only one document may be uploaded to an envelope.",
+        "selectTemplate": "Select Template",
+        "theseTemplatesAre": "These templates are from DocuSign",
+        "uploadDocument": "Upload a document",
+        "uploadedDocumentIsRequired": "An uploaded document is required",
+        "useGenericDocument": "Use generic document",
+        "useOrUploadDocument": "You can either use the generic document associated with this template, or upload your own.",
+        "whoWillSignDocument": "Select who will sign this document."
+      },
+      "view": {
+        "documentDownloadingError": "An error occurred downloading this document.",
+        "download": "Download",
+        "processingSignature": "Processing signature",
+        "signDocumentConfirmation": "To sign this document, you will be navigated away from our site to Docusign. Are you sure you want to continue?",
+        "viewAndSign": "View and Sign",
+        "waitingForOtherSignatures": "Waiting for other signatures"
+      }
+    },
+    "envelopes": {
+      "newSignature": "New Signature"
+    }
+  },
+  "formats": {
+    "currency": "{{value, currency}}",
+    "distance": "{{ value, distance }}",
+    "number": "{{value, number}}",
+    "dateFull": "{{value, dateFull}}",
+    "dateShort": "{{value, dateShort}}",
+    "timeMedium": "{{value, timeMedium}}",
+    "timeShort": "{{value, timeShort}}",
+    "dateLong": "{{value, dateLong}}",
+    "relativeLong": "{{value, relativeLong}}",
+    "relativeNarrow": "{{value, relativeNarrow}}",
+    "relativeShort": "{{value, relativeShort}}"
+  },
+  "links": {
+    "search": {
+      "authorizedOptions": {
+        "auditing": {
+          "auditorGroupSettings": "Auditor Group Settings",
+          "manageAuditors": "Manage Auditors",
+          "title": "Auditing"
+        },
+        "misc": {
+          "classReservations": "Class Reservations",
+          "CMSAdmin": "CMS Admin",
+          "contactManagementSystem": "Contact Management System",
+          "OSHAViolations": "Verify OSHA Violations",
+          "instructorPortal": "Instructor Portal",
+          "newCompany": "New Company",
+          "title": "Misc",
+          "trainingTracker": "Training Tracker"
+        },
+        "questionnaire": {
+          "addHyperlink": "Add Hyperlink",
+          "categoryAdmin": "Category Admin",
+          "clusterAdmin": "Cluster Admin",
+          "dashboardAdmin": "Dashboard Admin",
+          "documentsForHyperlinks": "Documents for Hyperlinks",
+          "editAuditTypes": "Edit Audit Types",
+          "editCheckBoxChoices": "Edit Check Box Choices",
+          "editCountriesAndProvinces": "Edit Countries and Provinces",
+          "editDropDownChoices": "Edit Drop Down Choices",
+          "editEMRTabulationColumns": "Edit EMR Tabulation Columns",
+          "editEMRTabulations": "Edit EMR Tabulations",
+          "editIncidentColumns": "Edit Incident Columns",
+          "editIncidentTabulations": "Edit Incident Tabulations",
+          "editListedOrientation": "Edit Listed Orientation",
+          "editListedServices": "Edit Listed Services",
+          "editListedTraining": "Edit Listed Training",
+          "editOrientationTopics": "Edit Orientation Topics",
+          "editServiceRegions": "Edit Service Regions",
+          "editServices": "Edit Services",
+          "editTabulationUploadColumns": "Edit Tabulation Upload Columns",
+          "editTrainingColumns": "Edit Training Columns",
+          "editTrainingModules": "Edit Training Modules",
+          "editUploadTabulations": "Edit Upload Tabulations",
+          "priceStructureAdmin": "Price Structure Admin",
+          "questionAdmin": "Question Admin",
+          "sectionAdmin": "Section Admin",
+          "serviceCategoryMatrixAdmin": "Service Category Matrix Admin",
+          "subscriptionTypeAdmin": "Subscription Type Admin",
+          "title": "Questionnaire",
+          "trainingStandardAdministration": "Training Standard Administration",
+          "verificationTypeAdmin": "Verification Type Admin"
+        },
+        "reporting": {
+          "majorRequirementsAdmin": "Major Requirements Admin",
+          "reportArchitect": "Report Architect",
+          "restrictedReports": "Restricted Reports",
+          "standardReportArchitect": "Standard Report Architect",
+          "teamCompanyTranslate": "Team Company Translate",
+          "title": "Reporting",
+          "viewReports": "View Reports"
+        },
+        "systemNotifications": {
+          "notificationAdminMenu": "Notification Admin Menu",
+          "promotionalMessageTypeAdmin": "Promotional Message Type Admin",
+          "title": "System Notifications"
+        },
+        "users": {
+          "findUser": "Find a User",
+          "manageUsers": "Manage Users",
+          "title": "Users"
+        }
+      },
+      "errorMessage": "There was an error processing your request.",
+      "noOptions": "No options were found.",
+      "searchFieldPlaceholder": "Search for an Option"
+    }
+  },
+  "oshaViolations": {
+    "clientAutocomplete": {
+      "typeInAName": "Type in a name and press Enter"
+    },
+    "clientDetails": {
+      "searchContractors": "Search Contractors",
+      "searchForAContractor": "Search for a contractor to view their OSHA violations."
+    },
+    "common": {
+      "activity": "Activity",
+      "address": "Address",
+      "apply": "Apply",
+      "automatic": "Automatic",
+      "cancel": "Cancel",
+      "citationId": "Citation ID",
+      "clear": "Clear",
+      "close": "Close",
+      "closed": "Closed",
+      "currentlyNoViolations": "Currently No Violations",
+      "filters": "Filters",
+      "imported": "Imported",
+      "match": "Match",
+      "noDataFound": "No data found",
+      "opened": "Opened",
+      "oshaCompanyName": "OSHA Company Name",
+      "oshaViolationVerification": "OSHA Violation Verification",
+      "other": "Other",
+      "searchedDaily": "OSHA Violations are searched daily and will be listed here if found.",
+      "sort": "Sort by {{label}}",
+      "ssqid": "SSQID",
+      "state": "State",
+      "thereWasAnError": "There was an error processing your request.",
+      "type": "Type",
+      "veriforceCompanyName": "Veriforce Company Name",
+      "view": "View"
+    },
+    "confirmationOps": {
+      "movingViolationToAssociated": "Moving a Violation to Associated status will add it to this contractor’s violation total.",
+      "movingViolationToPending": "Moving a Violation to Pending status will remove it from this contractor’s violation total.",
+      "movingViolationToPendingNot": "Moving a Violation to Pending status will not affect this contractor’s violation total.",
+      "movingViolationToUnassociated": "Moving a Violation to Unassociated status will remove it from this contractor’s violation total.",
+      "movingViolationToUnassociatedNot": "Moving a Violation to Unassociated status will not affect this contractor’s violation total."
+    },
+    "details": {
+      "oshaCompanyName": "OSHA Company Name",
+      "review": "Review {{capStatus}} {{otherStatus}}"
+    },
+    "manualOps": {
+      "associate": "Associate",
+      "associated": "Associated",
+      "citationForActivity": "Citation {{citationId}} for Activity {{activityNumber}} has been moved to {{actionLabel}}",
+      "moveToAssociate": "Move To Associate",
+      "moveToPending": "Move To Pending",
+      "moveToUnassociate": "Move To Unassociate",
+      "ok": "Ok",
+      "pending": "Pending",
+      "reasonForAction": "Reason For Action*",
+      "unassociate": "Unassociate",
+      "unassociated": "Unassociated"
+    },
+    "matchHistory": {
+      "matchHistory": "Match History"
+    },
+    "oshaResources": {
+      "findMoreDetails": "Find more details including OSHA Enforcement Inspections and Violations on your organization by visiting",
+      "learnMore": "Learn more about OSHA Enforcement Inspections by visiting",
+      "oshaFaQs": "OSHA FAQs",
+      "oshaResources": "OSHA Resources"
+    },
+    "oshaViolations": "OSHA Violations",
+    "tabFilter": {
+      "associated": "{{associated}} Associated",
+      "other": "{{other}} Other",
+      "pending": "{{pending}} Pending",
+      "unassociated": "{{unassociated}} Unassociated"
+    },
+    "tooltips": {
+      "companyId": "Company ID",
+      "dateDataWasImported": "Date data was imported",
+      "dateViolationWasAttested": "Date violation was attested by establishment",
+      "establishmentBeingInspected": "Establishment being inspected",
+      "identifiesTheCitation": "Identifies the citation number, item number, and item group of the issued citation",
+      "indicatesInspectionClosed": "Indicates when the inspection was closed",
+      "indicatesInspectionStarted": "Indicates when the inspection was started",
+      "oshaDataFeed": "OSHA data feed identifier for the inspection",
+      "programmaticMatchingPercentage": "Programmatic matching percentage",
+      "seriousWillfulRepeatOther": "S=Serious, W=Willful, R=Repeat, O=Other",
+      "stateOfEstablishment": "State of establishment's mailing address",
+      "uniqueCodeThat": "Unique code that is assigned to the NAICS",
+      "violationsDoNotHaveCompanyMatch": "Violations that do not have a company match in Compliance Pro due to not meeting the matching threshold",
+      "violationsHaveBeenAutomatically": "Violations that have been automatically or manually matched with a company in Compliance Pro",
+      "violationsOriginallyHadPartial": "Violations that originally had at least a partial match to a Compliance Pro company and have been manually reviewed with no matching company found",
+      "violationsRequireVerificationTeam": "Violations that require verification team review"
+    },
+    "verificationHeader": {
+      "dataPulled": "Data Pulled From OSHA {{time}}",
+      "oshaViolationVerification": "OSHA Violation Verification"
+    },
+    "violationsFilterForm": {
+      "hideAttestedCitations": "Hide Attested Citations",
+      "hideAutomaticMatches": "Hide Automatic Matches",
+      "searchCompanyOrSsqid": "Search Company or SSQID"
+    },
+    "violationsGrid": {
+      "other": "{{type}} Other",
+      "repeat": "{{type}} Repeat",
+      "serious": "{{type}} Serious",
+      "willful": "{{type}} Willful"
+    },
+    "violationsPerYear": {
+      "contractorViolationTotals": "Contractor Violation Totals",
+      "theCalendarYear": "* The calendar year is incomplete, so this total may change."
+    },
+    "violationTotals": {
+      "dataPulled": "Data Pulled From OSHA {{time}}",
+      "email": "Email: <1>safetyverifications@veriforce.com</1>",
+      "establishmentsWhoBelieve": "Establishments who believe a particular OSHA Violation in Compliance Pro is inaccurate, incomplete or out-of-date are encouraged to contact Veriforce Contractor Management Support at (866) 647-2338.",
+      "haveConcernsOrQuestions": "Have concerns or questions?",
+      "theCalendarYearIsIncomplete": "* The calendar year is incomplete, so this total may change.",
+      "total": "TOTAL",
+      "violationTotals": "Violation Totals",
+      "year": "YEAR"
+    }
+  },
+  "registration": {
+    "addCompanyForm": {
+      "addCompany": "Add Company",
+      "companyName": "Company Name",
+      "phoneNumber": "Phone Number"
+    },
+    "checkPermission": {
+      "alreadyRegistered": "You Have Already Registered",
+      "loggedAsRegisteredStudent": "You are currently logged in as a registered student.",
+      "returnHome": "Return Home"
+    },
+    "common": {
+      "multipleRecordsFound": "Multiple Records Found",
+      "searching": "Searching..."
+    },
+    "enterYourInfoForm": {
+      "completeRegistration": "Complete Registration",
+      "dateOfBirth": "Date of Birth",
+      "enterInfo": "Enter Your Information Below",
+      "FinishRegistration": "Finish Registration",
+      "firstName": "First Name",
+      "last4OfSSN": "Last 4 of SSN",
+      "lastName": "Last Name",
+      "phoneNumber": "Phone Number"
+    },
+    "identifyTraineeForm": {
+      "enterYourPECID": "Enter Your PEC ID",
+      "identify": "Identify",
+      "PEC": "PEC"
+    },
+    "multipleTrainees": {
+      "employer": "Employer",
+      "lastUpdated": "Last Updated",
+      "name": "Name",
+      "photo": "Photo",
+      "selectRecord": "Please select the record you want to use"
+    },
+    "organizationResultsContainer": {
+      "moreResults": "And {{resultsLeft}} more. Please refine your search to see them.",
+      "noOrganizationsMatchSearch": "No Organizations match your search",
+      "resultsCount": "Result",
+      "resultsCount_plural": "Results"
+    },
+    "results": {
+      "searchResults": "Search results"
+    },
+    "search": {
+      "search": "Search"
+    },
+    "searchOrganizations": {
+      "cantFindEmployer": "Can't find your Employer?",
+      "companyName": "Company Name",
+      "employmentInformation": "Employment Information",
+      "findYourEmployer": "Find your Employer"
+    },
+    "usingACompany": {
+      "areYouEmployed": "Are you employed?",
+      "employment": "Employment",
+      "no": "No",
+      "yes": "Yes"
+    },
+    "verifyTraineeinfo": {
+      "defaultUserAvatar": "Default user avatar",
+      "employer": "Employer",
+      "id": "ID:",
+      "name": "Name",
+      "notAvailable": "n/a",
+      "phone": "Phone",
+      "thisIsMe": "This is Me",
+      "tryAnotherPEC": "Try another PEC ID",
+      "verifyYourInfo": "Verify Your Information"
+    },
+    "welcome": {
+      "havePECID": "Do you have a PEC ID?",
+      "noIDont": "No, I don't have one",
+      "welcomeTitle": "Welcome",
+      "yesIHave": "Yes, I have a PEC ID"
+    }
+  },
+  "reporting": {
+    "autocompleteContractors": {
+      "contractors": "Contractors",
+      "searchByContractorName": "Search by Contractor Name…"
+    },
+    "common": {
+      "activityObserved": "Activity Observed",
+      "addBehaviorCategory": "Add a Behavior Category",
+      "addClassification": "Add a Classification",
+      "addRegion": "Add a Region",
+      "addRootCause": "Add a Root Cause",
+      "addWorkGroup": "Add a Work Group",
+      "allContractors": "All Contractors",
+      "apply": "Apply",
+      "backToLeadingIndicatorReports": "Back to Leading Indicator Reports",
+      "backToSelectOperator": "Back to Select an Operator",
+      "behaviorCategories": "Behavior Categories",
+      "behaviorCategory": "Behavior Category",
+      "cancel": "Cancel",
+      "classification": "Classification",
+      "classifications": "Classifications",
+      "common": "Occurred",
+      "contractor": "Contractor",
+      "contractorsCount": "{{count}} Contractor",
+      "contractorsCount_plural": "{{count}} Contractors",
+      "description": "Description",
+      "id": "ID",
+      "location": "Location",
+      "name": "Name",
+      "region": "Region",
+      "regions": "Regions",
+      "reported": "Reported",
+      "rootCause": "Root Cause",
+      "rootCauses": "Root Causes",
+      "save": "Save",
+      "status": "Status",
+      "submit": "Submit",
+      "total": "Total",
+      "workGroup": "Work Group",
+      "workGroups": "Work Groups",
+      "yesSubmitIt": "Yes, submit it"
+    },
+    "components": {
+      "dueBefore": "Due Before",
+      "notImplementedYet": "Not implemented yet",
+      "reporting": "Reporting",
+      "updatedDate": "Updated Date"
+    },
+    "incidents": {
+      "addIncident": {
+        "describeTheIncident": "Describe the incident...",
+        "leaveConfirmation": "Are you sure you want to leave?",
+        "nameNotSet": "{{name}} has not yet set up leading indicator reporting.",
+        "occurredOn": "Occurred On",
+        "reportIndicator": "Report Indicator",
+        "reportIndicatorConfirmation": "Are you sure you want to report this indicator?",
+        "reportLeadingIndicator": "Report a Leading Indicator to {{clientName}}",
+        "yesReportIt": "Yes, Report it"
+      },
+      "clientCategories": {
+        "indicatorClassifications": "Indicator Classifications",
+        "noClassificationsAdded": "No classifications have been added.",
+        "showInactiveClassifications": "Show Inactive Classifications"
+      },
+      "clientCategory": {
+        "editClassification": "Edit Classification"
+      },
+      "clientIncidents": {
+        "allCategories": "All Behavior Categories",
+        "allClassifications": "All Classifications",
+        "categoriesCount": "{{count}} Behavior Category",
+        "categoriesCount_plural": "{{count}} Behavior Categories",
+        "classificationsCount": "{{count}} Classification",
+        "classificationsCount_plural": "{{count}} Classifications",
+        "endDate": "End Date",
+        "enterBehaviorCategoryName": "Enter a Behavior Category Name…",
+        "enterClassificationName": "Enter a Classification Name…",
+        "leadingIndicatorReport": "Leading Indicator Report",
+        "manage": "Manage",
+        "noReportedIncidentsFound": "No reported incidents have been found.",
+        "startDate": "Start Date"
+      },
+      "clientRegion": {
+        "editRegion": "Edit Region"
+      },
+      "clientRegions": {
+        "indicatorRegions": "Indicator Regions",
+        "noRegionsAdded": "No regions have been added.",
+        "showInactiveRegions": "Show Inactive Regions"
+      },
+      "clientRootCause": {
+        "editRootCause": "Edit Root Cause"
+      },
+      "clientRootCauses": {
+        "indicatorRootCauses": "Indicator Root Causes",
+        "noRootCausesAdded": "No root causes have been added.",
+        "showInactiveRootCauses": "Show Inactive Root Causes"
+      },
+      "clientType": {
+        "editBehaviorCategory": "Edit Behavior Category"
+      },
+      "clientTypes": {
+        "indicatorBehaviorCategories": "Indicator Behavior Categories",
+        "noBehaviorCategoriesAdded": "No behavior categories have been added.",
+        "showInactiveBehaviorCategories": "Show Inactive Behavior Categories"
+      },
+      "clientWorkGroup": {
+        "editWorkGroup": "Edit Work Group"
+      },
+      "clientWorkGroups": {
+        "indicatorWorkGroups": "Indicator Work Groups",
+        "noWorkGroupsAdded": "No work groups have been added.",
+        "showInactiveWorkGroups": "Show Inactive Work Groups"
+      },
+      "contractorIncidents": {
+        "leadingIndicatorReports": "Leading Indicator Reports",
+        "operator": "Operator",
+        "reportLeadingIndicator": "Report a Leading Indicator",
+        "youHaveNoReportedIncidents": "You have no reported incidents."
+      }
+    },
+    "operational": {
+      "clientOperations": {
+        "allMetrics": "All Metrics",
+        "allPeriodStatuses": "All Statuses",
+        "enterMetricName": "Enter a Metric Name…",
+        "enterStatusName": "Enter a Status Name…",
+        "metrics": "Metrics",
+        "metricsCount": "{{count}} Metric",
+        "metricsCount_plural": "{{count}} Metrics",
+        "noContractorsFound": "No contractors have been found.",
+        "noMetricsReported": "No metrics have been reported.",
+        "operationsReport": "Operations Report",
+        "periodStatusesCount": "{{count}} Status",
+        "periodStatusesCount_plural": "{{count}} Statuses",
+        "statuses": "Statuses"
+      },
+      "contractorOperations": {
+        "clientNotSetupOperationsReporting": "{{clientName}} has not yet set up Operations reporting.",
+        "metric": "Metric",
+        "no": "No",
+        "noSelection": "No Selection",
+        "operationsReportingFor": "Operations Reporting for {{clientName}}",
+        "submitOperationsReportConfirmation": "Are you sure you want to submit this Operations Report?",
+        "value": "Value",
+        "yes": "Yes"
+      }
+    },
+    "periodStatuses": {
+      "latePost": "Late Post",
+      "pastDue": "Past Due",
+      "posted": "Posted",
+      "waiting": "Waiting"
+    },
+    "regional": {
+      "client": {
+        "edited": "(Edited)",
+        "edits": "Edits",
+        "exportReport": "Export Report",
+        "flexTrackReport": "FlexTrack Report",
+        "manageFlexTrackSettings": "Manage FlexTrack Settings",
+        "noFlexTrackInformationReported": "No FlexTrack information has been reported.",
+        "uploaded": "Updated {{date}} {{time}}",
+        "workNotPerformed": "Work Not Performed"
+      },
+      "clientRegionalReportSettings": {
+        "backToFlexTrackReports": "Back to FlexTrack Reports",
+        "flexTrackSettings": "FlexTrack Settings"
+      },
+      "contractor": {
+        "clearValueConfirmation": "Are you sure you want to clear the value for {{name}}?",
+        "clientNotSetupFlexTrackReporting": "{{clientName}} has not yet set up FlexTrack reporting.",
+        "edit": "Edit",
+        "editReportConfirmation": "Are you sure you want to edit this report?",
+        "flexTrackReportingFor": "FlexTrack Reporting for {{clientName}}",
+        "metricValueCorrectConfirmation": "Are you sure {{value}} is the correct value for {{name}}?",
+        "pleaseEnterReason": "Please enter a reason for editing this report after it was submitted",
+        "reason": "Reason",
+        "submitReportConfirmation": "Are you sure you want to submit this report?",
+        "yesEditIt": "Yes, edit it",
+        "yesSaveIt": "Yes, save it"
+      }
+    },
+    "studentEmergencyContactList": {
+      "errorDownloadingThisFile": "There was an error downloading this file. Please <2><0>click here</0></2> to try again.",
+      "noPermissionsToDownload": "You do not have the correct permissions to download this report.",
+      "studentEmergencyContactList": "Student Emergency Contact List",
+      "yourReportStartedDownloading": "Your report has started downloading. <2><0>Click here</0></2> to download the report again."
+    }
+  },
+  "safetyPrograms": {
+    "businessUnits": {
+      "organizationHasNoBusinessUnits": "This organization has no business units. Please select another option."
+    },
+    "clientOverrideStatuses": {
+      "approvedStatus": "Exception Request Approved",
+      "approvedStatusGrid": "Request Approved",
+      "deniedStatus": "Exception Request Denied",
+      "deniedStatusGrid": "Request Denied",
+      "grantedStatus": "Exception Granted",
+      "grantedStatusGrid": "Granted",
+      "noneStatus": "No Exception In Place",
+      "removedStatus": "Exception Removed",
+      "removedStatusGrid": "Removed",
+      "requestedStatus": "Exception Requested",
+      "requestedStatusGrid": "Requested"
+    },
+    "clients": {
+      "hiringClient": "Hiring Client",
+      "searchClientName": "Search Client Name"
+    },
+    "clientServiceRegions": {
+      "organizationHasNoServiceRegions": "This organization has no service regions. Please select another option."
+    },
+    "comment": {
+      "delete": "Delete",
+      "deleteCommentConfirmation": "Are you sure you want to delete this comment?",
+      "markAsRead": "Mark as Read",
+      "markAsUnread": "Mark as Unread",
+      "verificationSpecialist": "Verification Specialist"
+    },
+    "comments": {
+      "markAllAsRead": "Mark all as read",
+      "saveComment": "Save Comment"
+    },
+    "common": {
+      "accept": "Accept",
+      "accepted": "Accepted",
+      "acceptedDescription": "The contractor indicated they do have this program in place and it has been reviewed by Veriforce Verification Specialists and meets all program requirements.",
+      "addDocumentation": "Add Documentation",
+      "addProgram": "Add Program",
+      "addQuestion": "Add Question",
+      "allContractors": "All Contractors",
+      "allDocuments": "All Documents",
+      "answerCannotBeAccepted": "This answer cannot be accepted or rejected until the contractor submits their safety program.",
+      "assignProgram": "Assign Program",
+      "assignSafetyPrograms": "Assign Program Reviews",
+      "bytes": "{{filesize}} bytes",
+      "cancel": "Cancel",
+      "changedBy": "Changed By",
+      "clients": "Clients",
+      "comment": "Comment",
+      "comments": "Comments",
+      "companyID": "Company ID",
+      "contractor": "Contractor",
+      "contractorNotAnswered": "The contractor hasn’t answered this question yet.",
+      "edit": "Edit",
+      "editProgram": "Edit Program",
+      "editShopLinks": "Edit Shop Links",
+      "exceptionGranted": "Exception Granted",
+      "exceptionsGranted": "Exceptions Granted",
+      "fileName": "File Name",
+      "filters": "Filters",
+      "gracePeriodEnd": "Grace Period End",
+      "lastActivity": "Last Activity",
+      "lastChange": "Last Change",
+      "leaveConfirmation": "Are you sure you want to leave? Unsaved changes will be lost.",
+      "multiple": "Multiple",
+      "NA": "N/A",
+      "next": "Next",
+      "no": "No",
+      "noDocumentsUploaded": "No documents have been uploaded.",
+      "none": "None",
+      "noResultsFound": "No results found. Please refine your search.",
+      "orUploadNewDocument": "Or Upload a New Document",
+      "pleaseRefineYourFilters": "No results found. Please refine your filters.",
+      "problemWithUploadingFile": "There was a problem uploading your file. Please try again.",
+      "programEditor": "Program Editor",
+      "programEvaluations": "Program Evaluations",
+      "programName": "Program Name",
+      "programReviews": "Program Reviews",
+      "programStatusReport": "Program Status Report",
+      "question": "Question",
+      "questionDiscussion": "Question Discussion",
+      "questionHasNoComments": "This question has no comments.",
+      "questionNumber": "Question {{questionNumber}}",
+      "questions": "Questions",
+      "reject": "Reject",
+      "rejected": "Rejected",
+      "rejectedDescription": "Veriforce verification specialists have reviewed the submitted program and found it does not meet necessary requirements.",
+      "reports": "Reports",
+      "reset": "Reset",
+      "safetyProgram": "Program",
+      "save": "Save",
+      "searchFileName": "Search File Name",
+      "size": "Size",
+      "status": "Status",
+      "subQuestions": "Subquestions",
+      "tip": "Tip: Bookmark this page to save your sorting and filtering options.",
+      "typeName": "Type in a name and press Enter",
+      "undo": "Undo",
+      "updatesSaved": "Your updates have been saved.",
+      "uploaded": "Uploaded",
+      "view": "View",
+      "yes": "Yes",
+      "yesDeleteIt": "Yes, delete it",
+      "program": "Program"
+    },
+    "document": {
+      "cancelUploadingConfirmation": "Are you sure you want to cancel this upload?",
+      "downloadPDF": "Download PDF",
+      "dragAndDropPdf": "Drag-and-drop a PDF here,<1></1>or click to select one.",
+      "error": "There was an error loading {{fileName}}",
+      "failedToLoadPDF": "Failed to load PDF file.",
+      "fileAlreadyUploaded": "A file named <1>{{name}}</1> has already been uploaded.",
+      "finishing": "Finishing",
+      "leaveConfirmation": "Are you sure you want to leave? Your upload will be canceled.",
+      "loadingText": "Loading PDF…",
+      "mbLimitWarning": "Only a PDF under 15 MB will be accepted.",
+      "nextPage": "Next Page",
+      "noCancel": "No, Cancel",
+      "noPDFSpecified": "No PDF file specified.",
+      "noResume": "No, Resume",
+      "page": "Page",
+      "pageNumeration": "Page {{pageNumber}} / {{numPages}}",
+      "previousPage": "Previous Page",
+      "readyToUpload": "Ready to Upload",
+      "uploadFileAs": "Would you like to upload your file as <2>{{suggestedFileName}}</2> instead?",
+      "uploading": "Uploading",
+      "uploadPDF": "Upload PDF",
+      "yesCancelIt": "Yes, Cancel It",
+      "yesUploadIt": "Yes, Upload It",
+      "zoomIn": "Zoom In",
+      "zoomOut": "Zoom Out"
+    },
+    "documents": {
+      "filterByContractor": "Filter by Contractor",
+      "selectDocument": "Select a Document"
+    },
+    "exceptionRequests": {
+      "requestedBy": "Requested By",
+      "submitted": "Submitted"
+    },
+    "filters": {
+      "clear": "Clear",
+      "close": "Close",
+      "contractors": "Contractors",
+      "contractorsOrCompanyID": "Contractors or Company ID",
+      "exceptionStatuses": "Exception Statuses",
+      "hasGracePeriod": "Has Grace Period",
+      "topResults": "Top {{options}} results of {{total}} total",
+      "unreadComments": "Unread Comments"
+    },
+    "gracePeriodFields": {
+      "gracePeriodEndDate": "Grace Period End Date"
+    },
+    "mandate": {
+      "availableSafetyProgramsWereAssigned": "All available Program Reviews have been assigned. <2>Click here to go back.</2>",
+      "businessUnits": "Business Units",
+      "deleteMandate": "Delete Mandate",
+      "deleteMandateConfirmation": "Are you sure you want to delete this mandate?",
+      "mandateDeleted": "Your mandate has been deleted.",
+      "programAssigned": "Your program has been assigned.",
+      "programGracePeriodEnd": "Program Grace Period End: {{date}}",
+      "requirementGracePeriod": "Requirement Grace Period",
+      "selectAssignees": "Select Assignees",
+      "selectSafetyProgram": "Select Program",
+      "services": "Services"
+    },
+    "mandates": {
+      "assignees": "Assignees",
+      "businessUnitsCount": "Business Unit",
+      "businessUnitsCount_plural": "Business Units",
+      "pleaseAssignProgram": "Please assign a program to get started.",
+      "regionalServicesCount": "Service",
+      "regionalServicesCount_plural": "Services"
+    },
+    "overrideHistory": {
+      "actions": "Actions",
+      "approved": "Approved",
+      "cancelled": "Cancelled",
+      "commentChange": "Comment Change",
+      "company": "Company",
+      "dateTime": "Date/Time",
+      "denied": "Denied",
+      "granted": "Granted",
+      "noDataFound": "No data found",
+      "removed": "Removed",
+      "requested": "Requested",
+      "user": "User"
+    },
+    "question": {
+      "addDocumentation": "Please add documentation to support your answer.",
+      "addQuestion": "Add Question {{questionNumber}}",
+      "addSubQuestion": "Add Subquestion",
+      "answerSubQuestions": "Please answer all of the subquestions.",
+      "answerYesNo": "Please answer “Yes” or “No”.",
+      "applyGracePeriod": "Apply Grace Period",
+      "backToQuestion": "Back to Question {{questionNumber}}",
+      "cancelAddingQuestion": "Cancel Adding Question",
+      "changesDisabledBecauseAnswerAccepted": "Changes are disabled because this answer has been accepted by an evaluator.",
+      "changesDisabledBecauseProgramSubmitted": "Changes are disabled because this program has been submitted.",
+      "citationText": "Citation Text",
+      "complete": "Complete",
+      "deleteConfirmation": "Are you sure you want to delete this question?",
+      "deleteQuestion": "Delete Question",
+      "editQuestion": "Edit Question {{questionNumber}}",
+      "evaluatorReview": "An evaluator will review this answer, and accept or reject it.",
+      "explainAnswer": "Please explain your answer by adding a comment.",
+      "nextQuestion": "Next Question",
+      "pleaseAddComment": "If this answer should be rejected, please add a comment to explain why, then click “Reject.”",
+      "previousQuestion": "Previous Question",
+      "questionDeleted": "Your question has been deleted.",
+      "questionSaved": "Your question has been saved.",
+      "questionText": "Question Text",
+      "questionWithoutGracePeriod": "Adding a new question without applying a grace period will cause all requirements for this program to be incomplete.",
+      "reviewDocAndComments": "Please review all documentation and comments, then click “Accept” or “Reject.”",
+      "saveAndAddGracePeriod": "Save & Add Grace Period",
+      "saveWithoutGracePeriod": "Save without Grace Period",
+      "subQuestionsOptional": "Subquestions (optional)",
+      "thisQuestionOnlyApplies": "This question only applies if you answer “Yes” to its parent question. <2>Click here to go back.</2>"
+    },
+    "reference": {
+      "clickDragPdf": "Click and drag on the PDF to highlight the area that supports your answer.",
+      "deleteDocReferenceConfirmation": "Are you sure you want to delete this document reference?",
+      "deleteReference": "Delete Reference",
+      "saveSelection": "Save Selection"
+    },
+    "references": {
+      "documentation": "Documentation",
+      "noDocumentationProvided": "No documentation has been provided.",
+      "page": "p. {{pageNumber}}"
+    },
+    "regionalServices": {
+      "filterByName": "Filter By Name",
+      "noResultsFound": "No results found. Please refine your filter.",
+      "noServicesAvailable": "No services are available for the selected region.",
+      "selectAll": "Select All",
+      "selectNone": "Select None",
+      "tip": "Tip: Use shift-click to select multiple rows."
+    },
+    "requirement": {
+      "acceptedNA": "Accepted N/A",
+      "acceptedNADescription": "The contractor indicated they do not have this program in place and Veriforce Verification Specialists have confirmed this program may not apply to this contractor.",
+      "buyProgram": "Buy Program",
+      "clickOnEachQuestion": "Click on each question below to provide your answer. Click on “Submit Program” when you’ve answered all the questions.",
+      "clientGracePeriodEndDate": "Client Grace Period End Date: {{periodEnd}} {{periodExpired}}",
+      "closeSafetyProgramGap": "Close your safety program gap with world-class programs through our trusted partner.",
+      "collapse": "Collapse",
+      "completed": "Completed",
+      "continue": "Continue",
+      "exceptionRequests": "Exception Requests",
+      "exceptionStatus": "Exception Status",
+      "exceptionStatusWarning": "Exceptions can be put in place by clients so that a program will not impact a contractor's compliance for that client. The program status is not affected by an exception.",
+      "expired": "(Expired)",
+      "gracePeriod": "GRACE PERIOD",
+      "gracePeriodsAllowContractors": "Grace periods allow contractors time to provide their program without the program affecting their score for a client. If there is a grace period in effect for a client, its end date will be shown below. Hovering over the date for a client will show the contributing factors leading to that grace period. Program status is not affected by a grace period.",
+      "incomplete": "Incomplete",
+      "incompleteDescription": "The contractor has not answered all required questions and/or uploaded and lassoed document.",
+      "lastActivityWasOn": "Last activity was on <2>{{date}}</2>.",
+      "NAPendingReview": "N/A Pending Review",
+      "NAPendingReviewDescription": "The contractor has indicated they do not have this program in place and are awaiting review by Veriforce verification specialists.",
+      "pendingReview": "Pending Review",
+      "pendingReviewDescription": "The contractor has indicated they have a program in place, has answered all necessary questions and submitted the program for review by Veriforce verification specialists.",
+      "programGracePeriodEndDate": "Program Grace Period End Date: {{periodEnd}} {{periodExpired}}",
+      "readyToSubmit": "Ready to Submit",
+      "readyToSubmitDescription": "Contractor has answered all required questions, has uploaded documentation, and selected appropriate section but has yet to submit the program for review.",
+      "rejectedNA": "Rejected N/A",
+      "rejectedNADescription": "Contractor indicated that this requirement should not apply. This will count against their total score for each hiring client until they grant an Exception for this program.",
+      "rejectionWarning": "Rejection Warning",
+      "requestException": "Request Exception",
+      "resolveThroughRecommendedPartner": "Resolve here through our recommended partner.",
+      "seeAll": "See All",
+      "selectQuestion": "Select a question below to review the contractor’s answer. ",
+      "submitProgram": "Submit Program",
+      "submittingProgram": "Submitting a program for review without supplying a safety program will automatically reject this program and may cause non-compliance for certain clients.",
+      "useVeriforceId": "Use your Veriforce Member ID at checkout to receive an exclusive discount.",
+      "grantException": "Grant Exception",
+      "rejectedProgramWillBeOmitted": "When checked, a rejected program will be omitted from scoring whereas an accepted program would be scored as if it were rejected."
+    },
+    "requirementClientOverride": {
+      "exceptionGranted": "Exception Granted."
+    },
+    "requirementOverrides": {
+      "approve": "Approve",
+      "backToProgram": "Back To Program",
+      "cancelExceptionRequest": "Cancel Exception Request",
+      "cancelExceptionRequestNote": "By canceling this request, all current and future clients will no longer see an active request. NOTE: Any exceptions already granted by individual clients will not be affected by this cancellation request. Please contact Veriforce at 866-647-2338 for questions.",
+      "cancelRequest": "Cancel Request",
+      "commentsAreVisible": "Optional. Comments are visible to all SPE users.",
+      "commentsVisibleWarning": "Required. Comments are visible to all SPE users.",
+      "deny": "Deny",
+      "exceptionRequestCanceled": "Exception request has been canceled.",
+      "exceptionRequestSaved": "Exception request has been submitted.",
+      "exceptions": "Exceptions",
+      "grant": "Grant",
+      "note": "Note: Future clients requiring this program will also receive this exception request until it is canceled.",
+      "remove": "Remove",
+      "requirementExceptions": "{{requirement}} Exceptions",
+      "status": "Status: ",
+      "submissionWillRequestException": "This submission will request an exception from the following clients for {{safetyProgramTitle}} :",
+      "submit": "Submit",
+      "yesCancelRequest": "Yes, Cancel Request"
+    },
+    "requirements": {
+      "exception": "Exception",
+      "noSafetyProgramsAssigned": "No Program Reviews have been assigned to this organization."
+    },
+    "safetyProgram": {
+      "addQuestion": "Please add a question to get started.",
+      "deleteProgram": "Delete Program",
+      "deleteProgramConfirmation": "Are you sure you want to delete this program?",
+      "programDeleted": "Your program has been deleted.",
+      "programGracePeriod": "Program Grace Period",
+      "safetyProgramSaved": "Your safety program has been saved.",
+      "safetyProgramTitle": "Program Title"
+    },
+    "safetyPrograms": {
+      "invalid": "Invalid",
+      "pleaseAddProgram": "Please add a program to get started.",
+      "searchProgramName": "Search Program Name",
+      "valid": "Valid"
+    },
+    "shopLinks": {
+      "noSafetyProgramsAvailable": "No Program Reviews are available.",
+      "saveChanges": "Save Changes",
+      "searchPrograms": "Search Programs"
+    },
+    "tooltipList": {
+      "items": "And {{items}} more…"
+    }
+  },
+  "scoring": {
+    "scoreSetForm": {
+      "selectServices": "Available Services"
+    },
+    "servicesList": {
+      "noResultsFound": "No results found. Please refine your filter.",
+      "tip": "Tip: Use shift-click to select multiple rows."
+    }
+  },
+  "smart": {
+    "autoComplete": {
+      "employerName": "Employer Name"
+    },
+    "barcodeScan": {
+      "scanPECID": "SCAN PEC ID"
+    },
+    "changeEmployer": {
+      "nameWarning": "If <1>{{employerName}}</1> is not correct, enter the name of the company that should be associated with <3>{{formattedName}}</3>."
+    },
+    "common": {
+      "apply": "Apply",
+      "cancel": "Cancel",
+      "checkIn": "Check In",
+      "checkOut": "Check Out",
+      "clear": "Clear",
+      "close": "Close",
+      "compliant": "Compliant",
+      "continue": "Continue",
+      "delete": "Delete",
+      "description": "Description",
+      "emailAddress": "Email Address",
+      "firstName": "First Name",
+      "goBack": "Go Back",
+      "lastName": "Last Name",
+      "next": "Next",
+      "noncompliant": "Noncompliant",
+      "none": "None",
+      "phoneNumber": "Phone Number",
+      "save": "Save",
+      "select": "Select",
+      "site": "Site",
+      "sites": "Sites",
+      "tags": "Tags",
+      "yesDelete": "Yes, delete it"
+    },
+    "contact": {
+      "editContact": "Edit Contact"
+    },
+    "contactForm": {
+      "confirmDelete": "Are you sure you want to delete this contact?",
+      "jobTitle": "Job Title"
+    },
+    "contacts": {
+      "add": "Add a Contact",
+      "addContacts": "Add Contacts",
+      "useButton": "Use the button in the bottom right to add your first contact.",
+      "useForm": "Use the form to the right to add your first contact."
+    },
+    "contactsCount": "{{count}} Contact",
+    "contactsCount_plural": "{{count}} Contacts",
+    "contactsTablet": {
+      "addContact": "Add Contact"
+    },
+    "contractor": {
+      "contractor": "Contractor",
+      "extension": "Extension {{extension}}"
+    },
+    "fetchTrainee": {
+      "workerNotFound": "Worker not found. Please try again."
+    },
+    "identifyWorker": {
+      "identify": "Identify",
+      "PEC": "PEC",
+      "workerPEC": "Worker’s PEC ID"
+    },
+    "identifyWorkerResults": {
+      "backToCheckIn": "Back to Check In Form",
+      "changeEmployer": "Change Employer",
+      "employer": "Employer: {{employer}}",
+      "selectRecord": "Select Your Matching Record",
+      "workerNotFound": "Worker not found. Please enter a different PEC ID or check in using your personal details."
+    },
+    "lastActivity": {
+      "lastActivity": "Last Activity",
+      "reportInjured": "Report Injured"
+    },
+    "lastUpdate": {
+      "checkedIn": "Checked in",
+      "checkedOut": "Checked out",
+      "rejected": "Rejected",
+      "reportedAsInjured": "Reported as injured"
+    },
+    "livesOnSite": {
+      "livesOnSite": "Lives On Site"
+    },
+    "reportForm": {
+      "allSites": "All Sites",
+      "allTags": "All Tags",
+      "endDate": "End Date",
+      "enterSiteName": "Enter a Site Name…",
+      "enterTag": "Enter a Tag…",
+      "sitesCount": "{{count}} Site",
+      "sitesCount_plural": "{{count}} Sites",
+      "startDate": "Start Date",
+      "tagsCount": "{{count}} Tag",
+      "tagsCount_plural": "{{count}} Tags"
+    },
+    "reportRow": {
+      "checkedIn": "Checked In: {{date}}",
+      "checkedOut": "Checked Out: {{date}}",
+      "companyStatus": "Company Status: <1>{{contractorStatus}}</1>",
+      "compliantTraining": "Compliant Training: ",
+      "injuredOnLocation": "Injured on Location",
+      "pecId": "PEC ID: {{pecId}}",
+      "site": "Site: {{siteName}}"
+    },
+    "reportTable": {
+      "company": "Company",
+      "exposure": "Exposure",
+      "noRecordsMatch": "No records match your search criteria."
+    },
+    "separator": {
+      "or": " or "
+    },
+    "sideNav": {
+      "reports": "Reports",
+      "siteInfo": "Site Info"
+    },
+    "site": {
+      "identifyAWorker": "Identify a Worker",
+      "usePecId": "Use PEC ID",
+      "usePersonalDetails": "Use Personal Details"
+    },
+    "siteDetailsForm": {
+      "areYouSure": "Are you sure you want to delete this site?",
+      "enterForNone": "Enter 0.0 for none",
+      "enterNewTag": "Enter a new or existing tag…",
+      "standardShiftDuration": "Standard Shift Duration",
+      "workgroups": "Workgroups",
+      "yesDeleteIt": "Yes, delete it"
+    },
+    "siteHeading": {
+      "newSite": "New Site"
+    },
+    "siteInfo": {
+      "standardShiftDuration": "{{count}} hour",
+      "standardShiftDuration_plural": "{{count}} hours"
+    },
+    "siteLocationForm": {
+      "enterALocation": "Enter a Location",
+      "searchForALocation": "Search for a Location…",
+      "useMyCurrentLocation": "Use My Current Location"
+    },
+    "sites": {
+      "addASite": "Add a Site",
+      "addYourFirstSite": "Add Your First Site",
+      "noResultsFound": "No results found",
+      "searchSites": "Search Sites",
+      "selectASite": "Select a Site",
+      "tryChangingYourSearch": "Try changing your search query or adding a new site.",
+      "useTheButton": "Use the button in the bottom right to add your first site."
+    },
+    "smartInfo": {
+      "edit": "Edit",
+      "location": "Location",
+      "standardShiftLength": "Standard Shift Length",
+      "workgroups": "Workgroups"
+    },
+    "titles": {
+      "contact": "Contact",
+      "contacts": "Contacts",
+      "exportReport": "Export Report",
+      "identifiedWorker": "Identified Worker",
+      "identifyAWorker": "Identify a Worker",
+      "myOrganizations": "My Organizations",
+      "report": "Report",
+      "workersOnSite": "Workers on Site"
+    },
+    "traineeSearchForm": {
+      "dateOfBirth": "Date of Birth",
+      "last4Digits": "Last 4 Digits of SSN"
+    },
+    "traineeSearchResults": {
+      "backToCheckIn": "Back to Check In Form",
+      "employer": "Employer: {{employeeOrganization}}",
+      "linkThisRecord": "Link this record with",
+      "selectYourMatchingRecord": "Select Your Matching Record",
+      "theseArentRight": "These aren’t right - Create a New Record"
+    },
+    "userOrganizations": {
+      "noOrganizationsAvailable": "No Organizations Available",
+      "selectAnOrganization": "Select an Organization",
+      "weAreSorry": "We’re sorry, your username is not yet associated with any organizations. Please contact PEC Safety at 866-647-2338."
+    },
+    "worker": {
+      "backToSearch": "Back to Search",
+      "certified": "Certified",
+      "checkOutWorker": "Check Out Worker",
+      "confirmInjury": "Confirm Injury",
+      "livesOnSite": "Lives On Site",
+      "noCheckOut": "No, check out",
+      "noTrainingRequirementsMet": "No Training Requirements Met",
+      "pleaseConfirm": "Please confirm this worker was injured on location.",
+      "reject": "Reject",
+      "thisWorkerHasNot": "This worker has not yet taken any PEC training.",
+      "wasThisWorkerInjured": "Was this worker injured since checking in?",
+      "yesReportAsInjured": "Yes, report as injured"
+    },
+    "workers": {
+      "checkedIn": "Checked In",
+      "checkInWorkers": "Check-In Workers",
+      "identifyAWorker": "Identify a Worker",
+      "livesOnSite": "Lives On Site",
+      "useTheButton": "Use the button in the bottom right to start checking in workers.",
+      "useTheForm": "Use the form to the left to start checking in workers."
+    },
+    "workersCount": "{{count}} Worker on Site",
+    "workersCount_plural": "{{count}} Workers on Site",
+    "workerWorkGroup": {
+      "compliantTime": "Compliant {{date}}",
+      "noncompliant": "Noncompliant"
+    }
+  },
+  "subscriber": {
+    "compliancePro": "Compliance Pro",
+    "dashboard": {
+      "clientScoresTile": {
+        "noClientScores": "No Client Scores are Available",
+        "reminder": "Please ensure your <2>Company Profile</2> is completed and your <6>Releases</6> are up-to-date.",
+        "title": "Client Scores"
+      },
+      "companyProfileIncomplete": {
+        "completeAdditionalCompanyInfoLink": "Please complete your Additional Company Information.",
+        "completeAdditionalCompanyInfoMessage": "Next Step: Complete your Additional Company Information",
+        "completeCompanyProfileLink": "Please complete your Company Profile to begin receiving Releases.",
+        "completeCompanyProfileMessage": "Next Step: Complete your Company Profile"
+      },
+      "insuranceExpired": {
+        "expiredDate": "{{organizationName}} expired on {{date}}",
+        "subtitle": "Please follow the links above to upload new insurance documents.",
+        "title": "Your Insurance has Expired"
+      },
+      "insuranceExpiring": {
+        "expiredDate": "{{organizationName}} expires on {{date}}",
+        "subtitle": "Please follow the links above to upload new insurance documents.",
+        "title": "Your Insurance is Expiring Soon"
+      },
+      "offeringsTile": {
+        "accessSafetyMeetings": "Access Safety Meetings",
+        "getHelp": "Get Help",
+        "getHired": "Get Hired",
+        "title": "PEC Offerings",
+        "viewTrainingOfferings": "View Training Offerings"
+      },
+      "predictiveRanking": {
+        "contributingFactors": "Contributing Factors",
+        "details": "Details",
+        "identifiedRisks": "The PEC Predictive model did not identify any significant risk over industry baseline.",
+        "noDataAvailable": "No Data Available",
+        "noPredictiveData": "No predictive data available. This may be a result of too much missing information in your questionnaire or your account is too new for a predictive ranking to exist. Please complete your questionnaire and check back later. Predictive rankings are updated in the first week of each month.",
+        "title": "Your PEC Predictive Ranking"
+      },
+      "questionnaireTile": {
+        "complete": "Complete!",
+        "reviewAllAnswers": "Review all Answers",
+        "sectionsLeft": "Section Left",
+        "sectionsLeft_plural": "Sections Left",
+        "showCompletedSections": "Show completed sections",
+        "title": "Questionnaire Progress"
+      },
+      "releases": {
+        "subtitle": "Please accept or reject them from the Releases Page.",
+        "title": "New Releases are Pending"
+      },
+      "subscriptionsExpired": {
+        "expired": "{{typeDisplayName}} expired",
+        "expiredDate": "{{typeDisplayName}} expired on {{date}}",
+        "pleaseCall": "Please call <1>844-768-9041</1> to renew.",
+        "title": "Your Subscription has Expired"
+      },
+      "subscriptionsExpiring": {
+        "expiredDate": "{{typeDisplayName}} expires on {{date}}",
+        "title": "Your Subscription is Expiring Soon"
+      },
+      "verificationsExpired": {
+        "expiredDate": "{{name}} expired on {{date}}",
+        "subtitle": "Please follow the links above to upload new documents.",
+        "title": "Your Verifications have Expired"
+      },
+      "verificationsExpiring": {
+        "expiredDate": "{{name}} expires on {{date}}",
+        "subtitle": "Please follow the links above to upload new documents.",
+        "title": "Your Verifications are Expiring Soon"
+      },
+      "verificationsTile": {
+        "completeSections": "Please complete the appropriate sections of your questionnaire.",
+        "expire": "{{typeDisplayName}} expired",
+        "expiredDate": "{{typeDisplayName}} expired on {{date}}",
+        "expiresOn": "{{typeDisplayName}} expires on {{date}}",
+        "noVerifications": "No Verifications are Available",
+        "title": "Subscription & Verifications"
+      },
+      "veriforceIntegration": {
+        "subtitle": "PEC and Veriforce have merged <2>Link your Veriforce account now</2> so you’re ready to enjoy future enhancements and a streamlined user experience.",
+        "title": "Link your Veriforce Organization"
+      }
+    },
+    "questionnaire": {
+      "printSections": "Print all Sections",
+      "requiredQuestions": "Questions in blue are required",
+      "reviewComments": "Review comments",
+      "sections": "Sections",
+      "sectionsCount": "{{remainingSectionCount}} left",
+      "title": "Questionnaire section",
+      "viewUnreadComments": "View Unread Comments"
+    }
+  },
+  "trainingCompliance": {
+    "common": {
+      "addContractors": "Add Contractors to {{jobTypeName}}",
+      "addEmployees": "Add Employees to {{jobTypeName}}",
+      "addJobTypes": "Add Job Types to {{name}}",
+      "addTrainingRequirements": "Add Training Requirements to {{name}}",
+      "allEmployees": "All Employees",
+      "allTraining": "All Training",
+      "assignedEmployee": "Assigned Employee",
+      "assignedEmployees": "Assigned Employees",
+      "cancel": "Cancel",
+      "compliant": "Compliant",
+      "contractor": "Contractor",
+      "contractors": "Contractors",
+      "customTraining": "Custom Training",
+      "deleteConfirmation": "Are you sure you'd like to delete {{name}}?",
+      "description": "Description",
+      "email": "Email",
+      "errorProcessingValidationRequest": "error processing validation request",
+      "generalInfo": "General Info",
+      "generalInfoAndEdit": "General Info & Edit",
+      "isNotUnique": "is not unique",
+      "isRequired": "is required",
+      "jobType": "Job Type",
+      "jobTypes": "Job Types",
+      "mobile": "Mobile",
+      "newCustomTrainingRequirement": "New Custom Training Requirement",
+      "newJobType": "New Job Type",
+      "newWorkGroup": "New Work Group",
+      "noEmployeesAssigned": "No employees have been assigned",
+      "noExpiration": "No expiration",
+      "nonCompliant": "Noncompliant",
+      "noSearchResultsFound": "No search results found",
+      "noTrainingAssigned": "No Training Assigned",
+      "noTrainingRequirementsAssigned": "No training requirements have been assigned",
+      "PECValidated": "PEC Validated",
+      "percentageOfTrainingCompliant": "<0>{{percentage}}%</0> of training compliant",
+      "processingRequestError": "There was an error processing your request.",
+      "removeTrainingNameConfirmation": "Are you sure you'd like to remove {{name}}?",
+      "requiredTraining": "Required Training",
+      "requirementStatus": "Requirement Status",
+      "selectOperator": "Select Operator",
+      "selfValidated": "Self Validated",
+      "standardTraining": "Standard Training",
+      "submit": "Submit",
+      "title": "Title",
+      "trainingCompliance": "Training Compliance",
+      "trainingRequirements": "Training Requirements",
+      "unassignItemConfirmation": "Are you sure you'd like to unassign {{name}}?",
+      "workGroup": "Work Group",
+      "workGroups": "Work Groups"
+    },
+    "components": {
+      "fileIsTooBig": "File is too big",
+      "itemAlreadyAdded": "The following {{typeOfItem}} have already been added:",
+      "search": "Search",
+      "unassign": "Unassign",
+      "unknown": "Unknown",
+      "unsupportedFileType": "Unsupported file type"
+    },
+    "contractor": {
+      "autocompleteEmployees": {
+        "selectEmployees": "Select Employees"
+      },
+      "employeeTrainingRequirement": {
+        "completionDate": "Completion Date:",
+        "completionDateNeeded": "Completion date needed",
+        "deleteDocumentConfirmation": "Are you sure you want to delete {{fileName}}?",
+        "downloadingError": "There was an error downloading this file.",
+        "expirationDate": "Expiration Date:",
+        "internalServerError": "Internal server error",
+        "noneProvided": "None provided",
+        "pendingUploads": "Pending Uploads",
+        "recordOfTraining": "Record of Training",
+        "trainingCompletionDate": "Training Completion Date",
+        "uploadedDocuments": "Uploaded Documents:"
+      },
+      "workGroup": {
+        "assignedJobTypes": "Assigned Job Types",
+        "noJobTypesAssigned": "No job types have been assigned to this work group"
+      },
+      "workGroupJobType": {
+        "assignEmployees": "Assign Employees"
+      },
+      "workGroupJobTypeEmployee": {
+        "work": "Work"
+      },
+      "workGroupJobTypeEmployees": {
+        "employees": "employees"
+      },
+      "workGroups": {
+        "assignedWorkGroups": "Assigned Work Groups",
+        "noWorkGroupsAssigned": "No work groups have been assigned"
+      }
+    },
+    "operator": {
+      "allContractors": "All Contractors",
+      "allJobTypes": "All Job Types",
+      "assignedEmployeeReport": {
+        "apply": "Apply",
+        "assignedEmployees": "Assigned Employees Training Taken Report",
+        "clear": "Clear",
+        "completionDate": "Completion Date: {{date}}",
+        "contractorName": "Contractor Name",
+        "employeeName": "Employee Name",
+        "employees": "Employees",
+        "expirationDate": "Expiration Date: {{date}}",
+        "exportReport": "Export Report",
+        "hasDocumentation": "Has Documentation: {{hasDocument}}",
+        "noRecords": "No records match your search criteria.",
+        "trainingRequirement": "Training Requirement",
+        "validation": "Validation: {{validatingCompany}}"
+      },
+      "autocompleteClientAssignedEmployees": {
+        "selectEmployees": "Select Employees"
+      },
+      "autocompleteContractors": {
+        "selectContractors": "Select Contractors"
+      },
+      "autocompleteJobTypes": {
+        "selectJobTypes": "Select Job Types"
+      },
+      "autocompleteServiceRegions": {
+        "assignContractorsByIndustry": "Assign Contractors By Industry"
+      },
+      "autocompleteTrainings": {
+        "selectRequirements": "Select Requirements"
+      },
+      "autocompleteWorkGroups": {
+        "selectWorkGroups": "Select Work Groups"
+      },
+      "contractor": {
+        "allTrainings": "All trainings",
+        "office": "Office"
+      },
+      "contractors": {
+        "noContractorsReleasedToOrganization": "No contractors have been released to your organization"
+      },
+      "jobType": {
+        "editJobType": "Edit Job Type",
+        "jobTypeNotAssigned": "This job type has not been assigned to any work groups",
+        "newTrainingRequirement": "New Training Requirement",
+        "removeJobType": "Remove Job Type"
+      },
+      "jobTypes": {
+        "noJobTypesCreated": "No job types have been created"
+      },
+      "jobTypeTrainingRequirement": {
+        "removeTrainingRequirement": "Remove Training Requirement"
+      },
+      "jobTypeTrainingRequirements": {
+        "requirements": "requirements"
+      },
+      "training": {
+        "afterCompletion": "{{expiration}} after completion",
+        "day": "Day(s)",
+        "descriptionAndInstructions": "Description and Instructions",
+        "editTraining": "Edit Training",
+        "expiration": "Expiration:",
+        "expirationPeriod": "Expiration Period",
+        "month": "Month(s)",
+        "no": "No",
+        "OSHAReferences": "OSHA References:",
+        "recordOfTrainingUploadRequired": "Record of training upload required:",
+        "recordRequired": "Record of training upload required?",
+        "removeTraining": "Remove Training",
+        "validation": "Validation:",
+        "week": "Week(s)",
+        "year": "Year(s)",
+        "yes": "Yes"
+      },
+      "trainings": {
+        "newCustomTraining": "New Custom Training",
+        "noTrainingRequirementsCreated": "No training requirements have been created"
+      },
+      "workGroup": {
+        "addJobType": "Add Job Type",
+        "editWorkGroup": "Edit Work Group",
+        "noJobTypesAssigned": "No job types have been assigned",
+        "removeWorkGroup": "Remove Work Group"
+      },
+      "workGroupJobType": {
+        "`assignContractors`": "Assign Contractors",
+        "assignedContractors": "Assigned Contractors",
+        "noContractorsAssigned": "No contractors have been assigned",
+        "requiredTrainings": "Required Trainings"
+      },
+      "workGroupJobTypeContractor": {
+        "unassignContractor": "Unassign Contractor"
+      },
+      "workGroupJobTypeContractors": {
+        "contractors": "contractors"
+      },
+      "workGroupJobTypeEmployee": {
+        "training": "Training"
+      },
+      "workGroupJobTypes": {
+        "jobTypes": "job types"
+      },
+      "workGroups": {
+        "noWorkGroupsCreated": "No work groups have been created"
+      }
+    },
+    "workGroupJobType": {
+      "unassignJobType": "Unassign Job Type"
+    }
+  },
+  "user": {
+    "nav": {
+      "userProfile": "User Profile"
+    },
+    "profile": {
+      "almostDone": "Almost done!",
+      "cancel": "Cancel",
+      "contactInfo": "Contact Info",
+      "contactInformation": "Contact Information",
+      "dateTaken": "Date Taken:",
+      "downloadProfile": "Download Profile",
+      "editContactInfo": "Edit Contact Info",
+      "emailAddress": "Email Address",
+      "emergencyContact": "Emergency Contact",
+      "emergencyContactInformation": "Emergency Contact Information",
+      "emergencyContactName": "Emergency Contact Name",
+      "emergencyContactPhoneNumber": "Emergency Contact Phone",
+      "emergencyContactRelation": "Emergency Contact Relation",
+      "expired": "Expired",
+      "finishRegistration": "Finish registration",
+      "middleInitial": "Middle Initial",
+      "moreInfo": "We need a little more info before your PEC account is ready to use.",
+      "noneProvided": "None Provided",
+      "noTraining": "No training has been associated with this profile.",
+      "phoneNumber": "Phone Number",
+      "save": "Save",
+      "status": "Status:",
+      "trainingHistory": "Training History",
+      "trainingLevel": "Training Level:",
+      "updateContactInformation": "Update Contact Information",
+      "valid": "Valid",
+      "validatingCompany": "Validating Company:"
+    },
+    "sideNav": {
+      "eLearning": "eLearning"
+    }
+  },
+  "veriforceIntegration": {
+    "common": {
+      "PECOrganization": "PEC Organization",
+      "veriforceOrganization": "Veriforce Organization"
+    },
+    "logoAlt": "Veriforce | PEC",
+    "organization": {
+      "authorizationError": "This user is not authorized to link these organizations.<1>Please try again.</1>",
+      "cancel": "No, Cancel",
+      "confirmationMessage": "You are linking your PEC organization with your Veriforce organization. Are you sure you want to link these organizations?",
+      "confirmingUnlink": "Are you sure you want to unlink these organizations?",
+      "continue": "Continue to {{hostname}}",
+      "linkOrganizations": "Link Organizations",
+      "linkYourOrganizations": "Link Your PEC & Veriforce Organizations",
+      "login": {
+        "authorizationError": "This user is not authorized to link {{pecOrganizationName}} to a Veriforce organization. <4>Please try again.</4>",
+        "enterCredentials": "To link your organizations, enter your VeriSource credentials.",
+        "linkAccounts": "If you have login credentials for the Veriforce system, using them to <2>link your PEC and Veriforce accounts now</2> will enable your organization to immediately take advantage of future enhancements and a more streamlined user experience as we roll out these benefits.",
+        "loginButton": "Log in",
+        "loginError": "An error occurred while logging in. Please try again.",
+        "password": "VeriSource Password",
+        "PECMergedWithVeriforce": "<0>PEC has merged with Veriforce</0>, a leading provider of OQ compliance and other midstream solutions, to create a comprehensive supply chain safety and compliance platform.",
+        "title": "Log in to VeriSource™",
+        "username": "VeriSource Username"
+      },
+      "organizationAlreadyLinked": "{{existingLinkPecOrganizationName}} is already linked to {{veriforceOrganizationName}}. <5>Please select a different organization to link.</5>",
+      "organizationCannotBeLinked": "These organizations cannot be linked",
+      "organizationsLinked": "Your organizations have been linked!",
+      "organizationTypeError": "You have tried to link a Contractor organization to a Client organization. Organizations can only be linked if the organization type is the same. <2>Please select a different organization to link</2> or contact Veriforce for support.",
+      "unlink": "Yes, Unlink Them",
+      "unlinkOrganizations": "Unlink Organizations"
+    },
+    "title": "PEC Safety + Veriforce",
+    "userOrganizations": {
+      "error": "This user doesn’t belong to any organizations",
+      "selectPecOrganization": "Select a PEC organization"
+    }
+  }
+}

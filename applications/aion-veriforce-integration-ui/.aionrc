@@ -1,0 +1,4 @@
+export AION_DOCKER_IMAGE_NAME="aion-veriforce-integration-ui"
+export AION_DOCKER_NETWORK_NAME="vagrant_pec-network"
+export AION_DOCKER_PORTS="5041:5041"
+export AION_DOCKER_FILE="Dockerfile"

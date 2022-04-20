@@ -1,0 +1,1733 @@
+{
+  "alert": {
+    "taskThread": {
+      "taskMessages": {
+        "count": "",
+        "count_plural": ""
+      }
+    }
+  },
+  "backoffice": {
+    "assignRemoveOrganizationFeatures": {
+      "allOrganizations": "",
+      "clients": "",
+      "contractors": "",
+      "removeFromOrganization": "",
+      "whichOrganizations": ""
+    },
+    "common": {
+      "assign": "",
+      "cancel": "",
+      "remove": "",
+      "save": "",
+      "yes": ""
+    },
+    "homepage": {
+      "backOffice": "",
+      "welcome": ""
+    },
+    "manageGlobal": {
+      "globallyAssign": "",
+      "manageGlobalFeatures": ""
+    },
+    "manageOgranizationForm": {
+      "disabledMessage": ""
+    },
+    "manageUser": {
+      "editGlobalPermissions": "",
+      "enterOrganizationID": "",
+      "enterUserID": "",
+      "globalPermissons": "",
+      "organizationScopedPermissions": "",
+      "selectByOrganization": "",
+      "selectByUserID": "",
+      "userScopedPermissions": ""
+    },
+    "manageUserActivities": {
+      "areYouSure": "",
+      "disabledOptions": "",
+      "globalPermissions": "",
+      "permissionsOnOrganization": "",
+      "permissionsOnUser": "",
+      "uncheckingOverrid": ""
+    },
+    "manageUserActivitiesRow": {
+      "audit": "",
+      "override": ""
+    },
+    "organizationResults": {
+      "noOrganizations": ""
+    },
+    "results": {
+      "searchResults": ""
+    },
+    "search": {
+      "email": "",
+      "id": "",
+      "name": "",
+      "username": "",
+      "veriforceOrganizationName": ""
+    },
+    "searchOrganizations": {
+      "findOrganizations": "",
+      "organizations": "",
+      "searchByName": ""
+    },
+    "searchUsers": {
+      "findUser": "",
+      "searchByName": "",
+      "users": ""
+    },
+    "userResults": {
+      "noUsers": ""
+    }
+  },
+  "classes": {
+    "classDetails": {
+      "back": "",
+      "na": "",
+      "trainingProvider": "",
+      "translator": ""
+    },
+    "classesList": {
+      "availableSeats": "",
+      "changeSortOrder": "",
+      "instructorProvider": "",
+      "noClasses": "",
+      "price": "",
+      "searchClassesForm": {
+        "city": "",
+        "distance": "",
+        "resultsText": "",
+        "search": "",
+        "moreThan": ""
+      },
+      "state": "",
+      "tooltipTitle": "",
+      "upcomingTrainingClasses": ""
+    },
+    "classHeader": {
+      "addReservation": "",
+      "contacts": "",
+      "courseLength": "",
+      "location": "",
+      "locationDescription": "",
+      "maxReservations": "",
+      "seatsAvailable": "",
+      "seatsReserved": "",
+      "startDate": "STUB_FR_TRANSLATION: {{date}}{{time}}",
+      "supportedLanguages": ""
+    },
+    "common": {
+      "cancel": "",
+      "changeDate": "",
+      "courseName": "",
+      "editReservation": "",
+      "filters": "",
+      "instructor": "",
+      "maxDateMessage": "",
+      "organization": "",
+      "reservationDetails": "",
+      "reservationsReport": "",
+      "save": "",
+      "seats": "",
+      "startDate": "",
+      "trainingLocation": "",
+      "upcomingClasses": ""
+    },
+    "filters": {
+      "basicCourses": "",
+      "clear": "",
+      "close": "",
+      "courses": "",
+      "createdBy": "",
+      "minDateMessage": "",
+      "noOptions": "",
+      "supportedLanguages": "",
+      "topResults": "",
+      "trainingProviders": ""
+    },
+    "reservation": {
+      "commentsForInstructor": "",
+      "contactInformation": "",
+      "email": "",
+      "firstName": "",
+      "lastName": "",
+      "newReservation": "",
+      "phoneNumber": "",
+      "seatsAvailable": ""
+    },
+    "reservations": {
+      "addFirstReservation": "",
+      "associate": "",
+      "comments": "",
+      "contact": "",
+      "created": "",
+      "seatsReserved": "",
+      "updatedBy": "STUB_FR_TRANSLATION: {{date}}"
+    },
+    "reservationsReport": {
+      "avgSeats": "",
+      "endDate": "",
+      "list": {
+        "amount": "",
+        "changeSortOrder": "",
+        "classDate": "",
+        "createdBy": "",
+        "dateCreated": "",
+        "dateUpdated": "",
+        "languages": "",
+        "maxRes": "",
+        "noReservations": "",
+        "priceStudent": "",
+        "provider": "",
+        "sortBy": "",
+        "updatedBy": ""
+      },
+      "perReservation": "",
+      "perSeat": "",
+      "reservationMetrics": "",
+      "reservations": "",
+      "totalSeats": ""
+    }
+  },
+  "common": {
+    "back": ""
+  },
+  "components": {
+    "badgeTooltip": "",
+    "badgeTooltip_plural": "",
+    "topResults": ""
+  },
+  "employee": {
+    "allEmployeesTable": {
+      "allLinkedEmployees": "",
+      "noLinkedEmployeesFound": "",
+      "unlink": ""
+    },
+    "common": {
+      "cancel": "",
+      "dob": "",
+      "firstName": "",
+      "id": "",
+      "lastName": "",
+      "link": "",
+      "links": "",
+      "origin": "",
+      "pec": "",
+      "source": "",
+      "veriSource": ""
+    },
+    "employees": "",
+    "header": {
+      "allLinkedEmployees": "",
+      "employeeManagement": "",
+      "linkEmployees": ""
+    },
+    "linkEmployee": {
+      "employeesSuccessfullyLinked": "",
+      "employeesSuccessfullyUnlinked": "",
+      "thereWasAProblem": "",
+      "thisEmployeeIsAlreadyLinked": ""
+    },
+    "linkEmployees": {
+      "disclaimer": ""
+    },
+    "linkingDialog": {
+      "confirmEmployeeLink": "",
+      "theseEmployeesWillBeLinked": ""
+    },
+    "pecLink": {
+      "OriginPec": ""
+    },
+    "tableHeader": {
+      "search": ""
+    },
+    "unlinkDialog": {
+      "theseTwoEmployees": "",
+      "unlinkEmployees": "",
+      "yesUnlink": ""
+    },
+    "verisourceLink": {
+      "originVeriSource": ""
+    },
+    "verisourceNoResults": {
+      "chooseADifferentPecEmployee": "",
+      "noMatches": "STUB <1>{{traineeFirstName}} {{traineeLastName}}</1>.<3></3>"
+    }
+  },
+  "eSignature": {
+    "breadcrumbs": {
+      "viewDocument": ""
+    },
+    "common": {
+      "clientOrgName": "",
+      "completed": "",
+      "contractorName": "",
+      "dateLastUpdated": "",
+      "documentName": "",
+      "documentStatus": "",
+      "eSignatures": "",
+      "na": "",
+      "newDocument": "",
+      "notSigned": "",
+      "sender": "",
+      "unknown": "",
+      "waitingForOthers": ""
+    },
+    "components": {
+      "assigneeAssigned": "",
+      "fileIsTooBig": "",
+      "ownerAssigned": "",
+      "pending": "",
+      "unsupportedFileType": ""
+    },
+    "contractors": {
+      "allReleasedContractors": "",
+      "atLeastOneContractorRequired": "STUB",
+      "contractors": "",
+      "selectContractors": ""
+    },
+    "envelope": {
+      "add": {
+        "chooseDocument": "",
+        "chooseEnvelopeTemplate": "",
+        "chooseRecipients": "",
+        "documentUploadingFailed": "",
+        "documentWasAssigned": "",
+        "errorOccurred": "",
+        "noTemplatesAvailable": "",
+        "oneDocumentMayBeUploaded": "",
+        "selectTemplate": "",
+        "theseTemplatesAre": "",
+        "uploadDocument": "",
+        "uploadedDocumentIsRequired": "STUB",
+        "useGenericDocument": "",
+        "useOrUploadDocument": "",
+        "whoWillSignDocument": ""
+      },
+      "view": {
+        "documentDownloadingError": "",
+        "download": "",
+        "processingSignature": "",
+        "signDocumentConfirmation": "",
+        "viewAndSign": "",
+        "waitingForOtherSignatures": ""
+      }
+    },
+    "envelopes": {
+      "newSignature": ""
+    }
+  },
+  "formats": {
+    "currency": "{{value, currency}}",
+    "distance": "{{ value, distance }}",
+    "number": "{{value, number}}",
+    "dateFull": "{{value, dateFull}}",
+    "dateShort": "{{value, dateShort}}",
+    "timeMedium": "{{value, timeMedium}}",
+    "timeShort": "{{value, timeShort}}",
+    "dateLong": "{{value, dateLong}}",
+    "relativeLong": "{{value, relativeLong}}",
+    "relativeNarrow": "{{value, relativeNarrow}}",
+    "relativeShort": "{{value, relativeShort}}"
+  },
+  "links": {
+    "search": {
+      "authorizedOptions": {
+        "auditing": {
+          "auditorGroupSettings": "",
+          "manageAuditors": "",
+          "title": ""
+        },
+        "misc": {
+          "classReservations": "",
+          "CMSAdmin": "",
+          "contactManagementSystem": "",
+          "instructorPortal": "",
+          "newCompany": "",
+          "title": "",
+          "trainingTracker": ""
+        },
+        "questionnaire": {
+          "addHyperlink": "",
+          "categoryAdmin": "",
+          "clusterAdmin": "",
+          "dashboardAdmin": "",
+          "documentsForHyperlinks": "",
+          "editAuditTypes": "",
+          "editCheckBoxChoices": "",
+          "editCountriesAndProvinces": "",
+          "editDropDownChoices": "",
+          "editEMRTabulationColumns": "",
+          "editEMRTabulations": "",
+          "editIncidentColumns": "",
+          "editIncidentTabulations": "",
+          "editListedOrientation": "",
+          "editListedServices": "",
+          "editListedTraining": "",
+          "editOrientationTopics": "",
+          "editServiceRegions": "",
+          "editServices": "",
+          "editTabulationUploadColumns": "",
+          "editTrainingColumns": "",
+          "editTrainingModules": "",
+          "editUploadTabulations": "",
+          "priceStructureAdmin": "",
+          "questionAdmin": "",
+          "sectionAdmin": "",
+          "serviceCategoryMatrixAdmin": "",
+          "subscriptionTypeAdmin": "",
+          "title": "",
+          "trainingStandardAdministration": "",
+          "verificationTypeAdmin": ""
+        },
+        "reporting": {
+          "majorRequirementsAdmin": "",
+          "reportArchitect": "",
+          "restrictedReports": "",
+          "standardReportArchitect": "",
+          "teamCompanyTranslate": "",
+          "title": "",
+          "viewReports": ""
+        },
+        "systemNotifications": {
+          "notificationAdminMenu": "",
+          "promotionalMessageTypeAdmin": "",
+          "title": ""
+        },
+        "users": {
+          "findUser": "",
+          "manageUsers": "",
+          "title": ""
+        }
+      },
+      "errorMessage": "",
+      "noOptions": "",
+      "searchFieldPlaceholder": ""
+    }
+  },
+  "oshaViolations": {
+    "clientAutocomplete": {
+      "typeInAName": ""
+    },
+    "clientDetails": {
+      "searchContractors": "",
+      "searchForAContractor": ""
+    },
+    "common": {
+      "activity": "",
+      "address": "",
+      "apply": "",
+      "automatic": "",
+      "cancel": "",
+      "citationId": "",
+      "clear": "",
+      "close": "",
+      "closed": "",
+      "currentlyNoViolations": "",
+      "filters": "",
+      "imported": "",
+      "match": "",
+      "noDataFound": "",
+      "opened": "",
+      "oshaCompanyName": "",
+      "oshaViolationVerification": "",
+      "other": "",
+      "searchedDaily": "",
+      "sort": "",
+      "ssqid": "",
+      "state": "",
+      "thereWasAnError": "",
+      "type": "",
+      "veriforceCompanyName": "",
+      "view": ""
+    },
+    "confirmationOps": {
+      "movingViolationToAssociated": "",
+      "movingViolationToPending": "",
+      "movingViolationToPendingNot": "",
+      "movingViolationToUnassociated": "",
+      "movingViolationToUnassociatedNot": ""
+    },
+    "details": {
+      "oshaCompanyName": "",
+      "review": "STUB {{capStatus}} {{otherStatus}}"
+    },
+    "manualOps": {
+      "associate": "",
+      "associated": "",
+      "citationForActivity": "{{citationId}} STUB {{activityNumber}} STUB {{actionLabel}}",
+      "moveToAssociate": "",
+      "moveToPending": "",
+      "moveToUnassociate": "",
+      "ok": "",
+      "pending": "",
+      "reasonForAction": "",
+      "unassociate": "",
+      "unassociated": ""
+    },
+    "matchHistory": {
+      "matchHistory": ""
+    },
+    "oshaResources": {
+      "findMoreDetails": "",
+      "learnMore": "",
+      "oshaFaQs": "",
+      "oshaResources": ""
+    },
+    "oshaViolations": "",
+    "tabFilter": {
+      "associated": "{{associated}} STUB",
+      "other": "{{other}} STUB",
+      "pending": "{{pending}} STUB",
+      "unassociated": "{{unassociated}} STUB"
+    },
+    "tooltips": {
+      "companyId": "",
+      "dateDataWasImported": "",
+      "dateViolationWasAttested": "",
+      "establishmentBeingInspected": "",
+      "identifiesTheCitation": "",
+      "indicatesInspectionClosed": "",
+      "indicatesInspectionStarted": "",
+      "oshaDataFeed": "",
+      "programmaticMatchingPercentage": "",
+      "seriousWillfulRepeatOther": "",
+      "stateOfEstablishment": "",
+      "uniqueCodeThat": "",
+      "violationsDoNotHaveCompanyMatch": "",
+      "violationsHaveBeenAutomatically": "",
+      "violationsOriginallyHadPartial": "",
+      "violationsRequireVerificationTeam": ""
+    },
+    "verificationHeader": {
+      "dataPulled": "STUB {{time}}",
+      "oshaViolationVerification": ""
+    },
+    "violationsFilterForm": {
+      "hideAttestedCitations": "",
+      "hideAutomaticMatches": "",
+      "searchCompanyOrSsqid": ""
+    },
+    "violationsGrid": {
+      "other": "{{type}} StUB",
+      "repeated": "{{type}} STUB",
+      "serious": "{{type}} STUB",
+      "willful": "{{type}} STUB"
+    },
+    "violationsPerYear": {
+      "contractorViolationTotals": "",
+      "theCalendarYear": ""
+    },
+    "violationTotals": {
+      "dataPulled": "STUB {{time}}",
+      "email": "STUB: <1>safetyverifications@veriforce.com</1>",
+      "establishmentsWhoBelieve": "",
+      "haveConcernsOrQuestions": "",
+      "theCalendarYearIsIncomplete": "",
+      "total": "",
+      "violationTotals": "",
+      "year": ""
+    }
+  },
+  "registration": {
+    "addCompanyForm": {
+      "addCompany": "",
+      "companyName": "",
+      "phoneNumber": ""
+    },
+    "checkPermission": {
+      "alreadyRegistered": "",
+      "loggedAsRegisteredStudent": "",
+      "returnHome": ""
+    },
+    "common": {
+      "multipleRecordsFound": "",
+      "searching": ""
+    },
+    "enterYourInfoForm": {
+      "completeRegistration": "",
+      "dateOfBirth": "",
+      "enterInfo": "",
+      "FinishRegistration": "",
+      "firstName": "",
+      "last4OfSSN": "",
+      "lastName": "",
+      "phoneNumber": ""
+    },
+    "identifyTraineeForm": {
+      "enterYourPECID": "",
+      "identify": "",
+      "PEC": ""
+    },
+    "multipleTrainees": {
+      "employer": "",
+      "lastUpdated": "",
+      "name": "",
+      "photo": "",
+      "selectRecord": ""
+    },
+    "organizationResultsContainer": {
+      "moreResults": "",
+      "noOrganizationsMatchSearch": "",
+      "resultsCount": "",
+      "resultsCount_plural": ""
+    },
+    "results": {
+      "searchResults": ""
+    },
+    "search": {
+      "search": ""
+    },
+    "searchOrganizations": {
+      "cantFindEmployer": "",
+      "companyName": "",
+      "employmentInformation": "",
+      "findYourEmployer": ""
+    },
+    "usingACompany": {
+      "areYouEmployed": "",
+      "employment": "",
+      "no": "",
+      "yes": ""
+    },
+    "verifyTraineeinfo": {
+      "defaultUserAvatar": "",
+      "employer": "",
+      "id": "",
+      "name": "",
+      "notAvailable": "",
+      "phone": "",
+      "thisIsMe": "",
+      "tryAnotherPEC": "",
+      "verifyYourInfo": ""
+    },
+    "welcome": {
+      "havePECID": "",
+      "noIDont": "",
+      "welcomeTitle": "",
+      "yesIHave": ""
+    }
+  },
+  "reporting": {
+    "autocompleteContractors": {
+      "contractors": "",
+      "searchByContractorName": ""
+    },
+    "common": {
+      "activityObserved": "",
+      "addBehaviorCategory": "",
+      "addClassification": "",
+      "addRegion": "",
+      "addRootCause": "",
+      "addWorkGroup": "",
+      "allContractors": "",
+      "apply": "",
+      "backToLeadingIndicatorReports": "",
+      "backToSelectOperator": "",
+      "behaviorCategories": "",
+      "behaviorCategory": "",
+      "cancel": "",
+      "classification": "",
+      "classifications": "",
+      "common": "",
+      "contractor": "",
+      "contractorsCount": "",
+      "contractorsCount_plural": "",
+      "description": "",
+      "id": "",
+      "location": "",
+      "name": "",
+      "region": "",
+      "regions": "",
+      "reported": "",
+      "rootCause": "",
+      "rootCauses": "",
+      "save": "",
+      "status": "",
+      "submit": "",
+      "total": "",
+      "workGroup": "",
+      "workGroups": "",
+      "yesSubmitIt": ""
+    },
+    "components": {
+      "dueBefore": "",
+      "notImplementedYet": "",
+      "reporting": "",
+      "updatedDate": ""
+    },
+    "incidents": {
+      "addIncident": {
+        "describeTheIncident": "",
+        "leaveConfirmation": "",
+        "nameNotSet": "",
+        "occurredOn": "",
+        "reportIndicator": "",
+        "reportIndicatorConfirmation": "",
+        "reportLeadingIndicator": "",
+        "yesReportIt": ""
+      },
+      "clientCategories": {
+        "indicatorClassifications": "",
+        "noClassificationsAdded": "",
+        "showInactiveClassifications": ""
+      },
+      "clientCategory": {
+        "editClassification": ""
+      },
+      "clientIncidents": {
+        "allCategories": "",
+        "allClassifications": "",
+        "categoriesCount": "",
+        "categoriesCount_plural": "",
+        "classificationsCount": "",
+        "classificationsCount_plural": "",
+        "endDate": "",
+        "enterBehaviorCategoryName": "",
+        "enterClassificationName": "",
+        "leadingIndicatorReport": "",
+        "manage": "",
+        "noReportedIncidentsFound": "",
+        "startDate": ""
+      },
+      "clientRegion": {
+        "editRegion": ""
+      },
+      "clientRegions": {
+        "indicatorRegions": "",
+        "noRegionsAdded": "",
+        "showInactiveRegions": ""
+      },
+      "clientRootCause": {
+        "editRootCause": ""
+      },
+      "clientRootCauses": {
+        "indicatorRootCauses": "",
+        "noRootCausesAdded": "",
+        "showInactiveRootCauses": ""
+      },
+      "clientType": {
+        "editBehaviorCategory": ""
+      },
+      "clientTypes": {
+        "indicatorBehaviorCategories": "",
+        "noBehaviorCategoriesAdded": "",
+        "showInactiveBehaviorCategories": ""
+      },
+      "clientWorkGroup": {
+        "editWorkGroup": ""
+      },
+      "clientWorkGroups": {
+        "indicatorWorkGroups": "",
+        "noWorkGroupsAdded": "",
+        "showInactiveWorkGroups": ""
+      },
+      "contractorIncidents": {
+        "leadingIndicatorReports": "",
+        "operator": "",
+        "reportLeadingIndicator": "",
+        "youHaveNoReportedIncidents": ""
+      }
+    },
+    "operational": {
+      "clientOperations": {
+        "allMetrics": "",
+        "allPeriodStatuses": "",
+        "enterMetricName": "",
+        "enterStatusName": "",
+        "metrics": "",
+        "metricsCount": "",
+        "metricsCount_plural": "",
+        "noContractorsFound": "",
+        "noMetricsReported": "",
+        "operationsReport": "",
+        "periodStatusesCount": "",
+        "periodStatusesCount_plural": "",
+        "statuses": ""
+      },
+      "contractorOperations": {
+        "clientNotSetupOperationsReporting": "",
+        "metric": "",
+        "no": "",
+        "noSelection": "",
+        "operationsReportingFor": "",
+        "submitOperationsReportConfirmation": "",
+        "value": "",
+        "yes": ""
+      }
+    },
+    "periodStatuses": {
+      "latePost": "",
+      "pastDue": "",
+      "posted": "",
+      "waiting": ""
+    },
+    "regional": {
+      "client": {
+        "edited": "",
+        "edits": "",
+        "exportReport": "",
+        "flexTrackReport": "",
+        "manageFlexTrackSettings": "",
+        "noFlexTrackInformationReported": "",
+        "uploaded": "STUB {{date}} {{time}}",
+        "workNotPerformed": ""
+      },
+      "clientRegionalReportSettings": {
+        "backToFlexTrackReports": "",
+        "flexTrackSettings": ""
+      },
+      "contractor": {
+        "clearValueConfirmation": "",
+        "clientNotSetupFlexTrackReporting": "",
+        "edit": "",
+        "editReportConfirmation": "",
+        "flexTrackReportingFor": "",
+        "metricValueCorrectConfirmation": "",
+        "pleaseEnterReason": "",
+        "reason": "",
+        "submitReportConfirmation": "",
+        "yesEditIt": "",
+        "yesSaveIt": ""
+      }
+    },
+    "studentEmergencyContactList": {
+      "errorDownloadingThisFile": "",
+      "noPermissionsToDownload": "",
+      "studentEmergencyContactList": "",
+      "yourReportStartedDownloading": ""
+    }
+  },
+  "safetyPrograms": {
+    "businessUnits": {
+      "organizationHasNoBusinessUnits": ""
+    },
+    "clientOverrideStatuses": {
+      "approvedStatus": "",
+      "approvedStatusGrid": "",
+      "deniedStatus": "",
+      "deniedStatusGrid": "",
+      "grantedStatus": "",
+      "grantedStatusGrid": "",
+      "noneStatus": "",
+      "removedStatus": "",
+      "removedStatusGrid": "",
+      "requestedStatus": "",
+      "requestedStatusGrid": ""
+    },
+    "clients": {
+      "hiringClient": "",
+      "searchClientName": ""
+    },
+    "clientServiceRegions": {
+      "organizationHasNoServiceRegions": ""
+    },
+    "comment": {
+      "delete": "",
+      "deleteCommentConfirmation": "",
+      "markAsRead": "",
+      "markAsUnread": "",
+      "verificationSpecialist": ""
+    },
+    "comments": {
+      "markAllAsRead": "",
+      "saveComment": ""
+    },
+    "common": {
+      "accept": "",
+      "accepted": "",
+      "acceptedDescription": "",
+      "addDocumentation": "",
+      "addProgram": "",
+      "addQuestion": "",
+      "allContractors": "",
+      "allDocuments": "",
+      "answerCannotBeAccepted": "",
+      "assignProgram": "",
+      "assignSafetyPrograms": "",
+      "bytes": "",
+      "cancel": "",
+      "changedBy": "",
+      "clients": "",
+      "comment": "",
+      "comments": "",
+      "companyID": "",
+      "contractor": "",
+      "contractorNotAnswered": "",
+      "edit": "",
+      "editProgram": "",
+      "editShopLinks": "",
+      "exceptionGranted": "",
+      "exceptionsGranted": "",
+      "fileName": "",
+      "filters": "",
+      "gracePeriodEnd": "",
+      "lastActivity": "",
+      "lastChange": "",
+      "leaveConfirmation": "",
+      "multiple": "",
+      "NA": "",
+      "next": "",
+      "no": "",
+      "noDocumentsUploaded": "",
+      "none": "",
+      "noResultsFound": "",
+      "orUploadNewDocument": "",
+      "pleaseRefineYourFilters": "",
+      "problemWithUploadingFile": "",
+      "programEditor": "",
+      "programEvaluations": "",
+      "programName": "",
+      "programReviews": "",
+      "programStatusReport": "",
+      "question": "",
+      "questionDiscussion": "",
+      "questionHasNoComments": "",
+      "questionNumber": "",
+      "questions": "",
+      "reject": "",
+      "rejected": "",
+      "rejectedDescription": "",
+      "reset": "",
+      "safetyProgram": "",
+      "save": "",
+      "searchFileName": "",
+      "size": "",
+      "status": "",
+      "subQuestions": "",
+      "tip": "",
+      "typeName": "",
+      "undo": "",
+      "updatesSaved": "",
+      "uploaded": "",
+      "view": "",
+      "yes": "",
+      "yesDeleteIt": "",
+      "safetyPrograms": ""
+    },
+    "document": {
+      "cancelUploadingConfirmation": "",
+      "downloadPDF": "",
+      "dragAndDropPdf": "",
+      "error": "",
+      "failedToLoadPDF": "",
+      "fileAlreadyUploaded": "",
+      "finishing": "",
+      "leaveConfirmation": "",
+      "loadingText": "",
+      "mbLimitWarning": "",
+      "nextPage": "",
+      "noCancel": "",
+      "noPDFSpecified": "",
+      "noResume": "",
+      "page": "",
+      "pageNumeration": "",
+      "previousPage": "",
+      "readyToUpload": "",
+      "uploadFileAs": "",
+      "uploading": "",
+      "uploadPDF": "",
+      "yesCancelIt": "",
+      "yesUploadIt": "",
+      "zoomIn": "",
+      "zoomOut": ""
+    },
+    "documents": {
+      "filterByContractor": "",
+      "selectDocument": ""
+    },
+    "exceptionRequests": {
+      "requestedBy": "",
+      "submitted": ""
+    },
+    "filters": {
+      "clear": "",
+      "close": "",
+      "contractors": "",
+      "contractorsOrCompanyID": "",
+      "exceptionStatuses": "",
+      "hasGracePeriod": "",
+      "topResults": "",
+      "unreadComments": ""
+    },
+    "gracePeriodFields": {
+      "gracePeriodEndDate": ""
+    },
+    "mandate": {
+      "availableSafetyProgramsWereAssigned": "",
+      "businessUnits": "",
+      "deleteMandate": "",
+      "deleteMandateConfirmation": "",
+      "mandateDeleted": "",
+      "programAssigned": "",
+      "programGracePeriodEnd": "STUB_FR_TRANSLATION: {{date}}",
+      "requirementGracePeriod": "",
+      "selectAssignees": "",
+      "selectSafetyProgram": "",
+      "services": ""
+    },
+    "mandates": {
+      "assignees": "",
+      "businessUnitsCount": "",
+      "businessUnitsCount_plural": "",
+      "pleaseAssignProgram": "",
+      "regionalServicesCount": "",
+      "regionalServicesCount_plural": ""
+    },
+    "overrideHistory": {
+      "actions": "",
+      "approved": "",
+      "cancelled": "",
+      "commentChange": "",
+      "company": "",
+      "dateTime": "",
+      "denied": "",
+      "granted": "",
+      "noDataFound": "",
+      "removed": "",
+      "requested": "",
+      "user": ""
+    },
+    "question": {
+      "addDocumentation": "",
+      "addQuestion": "",
+      "addSubQuestion": "",
+      "answerSubQuestions": "",
+      "answerYesNo": "",
+      "applyGracePeriod": "",
+      "backToQuestion": "",
+      "cancelAddingQuestion": "",
+      "changesDisabledBecauseAnswerAccepted": "",
+      "changesDisabledBecauseProgramSubmitted": "",
+      "citationText": "",
+      "complete": "",
+      "deleteConfirmation": "",
+      "deleteQuestion": "",
+      "editQuestion": "",
+      "evaluatorReview": "",
+      "explainAnswer": "",
+      "nextQuestion": "",
+      "pleaseAddComment": "",
+      "previousQuestion": "",
+      "questionDeleted": "",
+      "questionSaved": "",
+      "questionText": "",
+      "questionWithoutGracePeriod": "",
+      "reviewDocAndComments": "",
+      "saveAndAddGracePeriod": "",
+      "saveWithoutGracePeriod": "",
+      "subQuestionsOptional": "",
+      "thisQuestionOnlyApplies": ""
+    },
+    "reference": {
+      "clickDragPdf": "",
+      "deleteDocReferenceConfirmation": "",
+      "deleteReference": "",
+      "saveSelection": ""
+    },
+    "references": {
+      "documentation": "",
+      "noDocumentationProvided": "",
+      "page": ""
+    },
+    "regionalServices": {
+      "filterByName": "",
+      "noResultsFound": "",
+      "noServicesAvailable": "",
+      "selectAll": "",
+      "selectNone": "",
+      "tip": ""
+    },
+    "requirement": {
+      "acceptedNA": "",
+      "acceptedNADescription": "",
+      "buyProgram": "",
+      "clickOnEachQuestion": "",
+      "clientGracePeriodEndDate": "STUB_FR_TRANSLATION: {{periodEnd}} {{periodExpired}}",
+      "closeSafetyProgramGap": "",
+      "collapse": "",
+      "completed": "",
+      "continue": "",
+      "exceptionRequests": "",
+      "exceptionStatus": "",
+      "exceptionStatusWarning": "",
+      "expired": "",
+      "gracePeriod": "",
+      "gracePeriodsAllowContractors": "",
+      "incomplete": "",
+      "incompleteDescription": "",
+      "lastActivityWasOn": "FAKE_FR_TRANSLATION <2>{{date}}</2>.",
+      "NAPendingReview": "",
+      "NAPendingReviewDescription": "",
+      "pendingReview": "",
+      "pendingReviewDescription": "",
+      "programGracePeriodEndDate": "STUB_FR_TRANSLATION: {{periodEnd}} {{periodExpired}}",
+      "readyToSubmit": "",
+      "readyToSubmitDescription": "",
+      "rejectedNA": "",
+      "rejectedNADescription": "",
+      "rejectionWarning": "",
+      "requestException": "",
+      "resolveThroughRecommendedPartner": "",
+      "seeAll": "",
+      "selectQuestion": "",
+      "submitProgram": "",
+      "submittingProgram": "",
+      "useVeriforceId": "",
+      "grantException": "",
+      "rejectedProgramWillBeOmitted": ""
+    },
+    "requirementClientOverride": {
+      "exceptionGranted": ""
+    },
+    "requirementOverrides": {
+      "approve": "",
+      "backToProgram": "",
+      "cancelExceptionRequest": "",
+      "cancelExceptionRequestNote": "",
+      "cancelRequest": "",
+      "commentsAreVisible": "",
+      "commentsVisibleWarning": "",
+      "deny": "",
+      "exceptionRequestCanceled": "",
+      "exceptionRequestSaved": "",
+      "exceptions": "",
+      "grant": "",
+      "note": "",
+      "remove": "",
+      "requirementExceptions": "",
+      "status": "",
+      "submissionWillRequestException": "",
+      "submit": "",
+      "yesCancelRequest": ""
+    },
+    "requirements": {
+      "exception": "",
+      "noSafetyProgramsAssigned": ""
+    },
+    "safetyProgram": {
+      "addQuestion": "",
+      "deleteProgram": "",
+      "deleteProgramConfirmation": "",
+      "programDeleted": "",
+      "programGracePeriod": "",
+      "safetyProgramSaved": "",
+      "safetyProgramTitle": ""
+    },
+    "safetyPrograms": {
+      "invalid": "",
+      "pleaseAddProgram": "",
+      "searchProgramName": "",
+      "valid": ""
+    },
+    "shopLinks": {
+      "noSafetyProgramsAvailable": "",
+      "saveChanges": "",
+      "searchPrograms": ""
+    },
+    "tooltipList": {
+      "items": ""
+    }
+  },
+  "scoring": {
+    "scoreSetForm": {
+      "selectServices": ""
+    },
+    "servicesList": {
+      "noResultsFound": "",
+      "tip": ""
+    }
+  },
+  "smart": {
+    "autoComplete": {
+      "employerName": ""
+    },
+    "barcodeScan": {
+      "scanPECID": ""
+    },
+    "changeEmployer": {
+      "nameWarning": "STUB <1>{{employerName}}</1> STUB <3>{{formattedName}}</3>."
+    },
+    "common": {
+      "apply": "",
+      "cancel": "",
+      "checkIn": "",
+      "checkOut": "",
+      "clear": "",
+      "close": "",
+      "compliant": "",
+      "continue": "",
+      "delete": "",
+      "description": "",
+      "emailAddress": "",
+      "firstName": "",
+      "goBack": "",
+      "lastName": "",
+      "next": "",
+      "noncompliant": "",
+      "none": "",
+      "phoneNumber": "",
+      "save": "",
+      "select": "",
+      "site": "",
+      "sites": "",
+      "tags": "",
+      "yesDelete": ""
+    },
+    "contact": {
+      "editContact": ""
+    },
+    "contactForm": {
+      "confirmDelete": "",
+      "jobTitle": ""
+    },
+    "contacts": {
+      "add": "",
+      "addContacts": "",
+      "useButton": "",
+      "useForm": ""
+    },
+    "contactsCount": "{{count}} STUB",
+    "contactsCount_plural": "{{count}} STUB",
+    "contactsTablet": {
+      "addContact": ""
+    },
+    "contractor": {
+      "contractor": "",
+      "extension": "STUB {{extension}}"
+    },
+    "fetchTrainee": {
+      "workerNotFound": ""
+    },
+    "identifyWorker": {
+      "identify": "",
+      "PEC": "",
+      "workerPEC": ""
+    },
+    "identifyWorkerResults": {
+      "backToCheckIn": "",
+      "changeEmployer": "",
+      "employer": "STUB: {{employer}}",
+      "selectRecord": "",
+      "workerNotFound": ""
+    },
+    "lastActivity": {
+      "lastActivity": "",
+      "reportInjured": ""
+    },
+    "lastUpdate": {
+      "checkedIn": "",
+      "checkedOut": "",
+      "rejected": "",
+      "reportedAsInjured": ""
+    },
+    "livesOnSite": {
+      "livesOnSite": ""
+    },
+    "reportForm": {
+      "allSites": "",
+      "allTags": "",
+      "endDate": "",
+      "enterSiteName": "",
+      "enterTag": "",
+      "sitesCount": "{{count}} STUB",
+      "sitesCount_plural": "{{count}} STUB",
+      "startDate": "",
+      "tagsCount": "{{count}} STUB",
+      "tagsCount_plural": "{{count}} STUB"
+    },
+    "reportRow": {
+      "checkedIn": "STUB: {{date}}",
+      "checkedOut": "STUB: {{date}}",
+      "companyStatus": "STUB: <1>{{contractorStatus}}</1>",
+      "compliantTraining": "",
+      "injuredOnLocation": "",
+      "pecId": "STUB: {{pecId}}",
+      "site": "STUB: {{siteName}}"
+    },
+    "reportTable": {
+      "company": "",
+      "exposure": "",
+      "noRecordsMatch": ""
+    },
+    "separator": {
+      "or": ""
+    },
+    "sideNav": {
+      "reports": "",
+      "siteInfo": ""
+    },
+    "site": {
+      "identifyAWorker": "",
+      "usePecId": "",
+      "usePersonalDetails": ""
+    },
+    "siteDetailsForm": {
+      "areYouSure": "",
+      "enterForNone": "",
+      "enterNewTag": "",
+      "standardShiftDuration": "",
+      "workgroups": "",
+      "yesDeleteIt": ""
+    },
+    "siteHeading": {
+      "newSite": ""
+    },
+    "siteInfo": {
+      "standardShiftDuration": "{{count}} STUB",
+      "standardShiftDuration_plural": "{{count}} STUB"
+    },
+    "siteLocationForm": {
+      "enterALocation": "",
+      "searchForALocation": "",
+      "useMyCurrentLocation": ""
+    },
+    "sites": {
+      "addASite": "",
+      "addYourFirstSite": "",
+      "noResultsFound": "",
+      "searchSites": "",
+      "selectASite": "",
+      "tryChangingYourSearch": "",
+      "useTheButton": ""
+    },
+    "smartInfo": {
+      "edit": "",
+      "location": "",
+      "standardShiftLength": "",
+      "workgroups": ""
+    },
+    "titles": {
+      "contact": "",
+      "contacts": "",
+      "exportReport": "",
+      "identifiedWorker": "",
+      "identifyAWorker": "",
+      "myOrganizations": "",
+      "report": "",
+      "workersOnSite": ""
+    },
+    "traineeSearchForm": {
+      "dateOfBirth": "",
+      "last4Digits": ""
+    },
+    "traineeSearchResults": {
+      "backToCheckIn": "",
+      "employer": "STUB: {{employeeOrganization}}",
+      "linkThisRecord": "",
+      "selectYourMatchingRecord": "",
+      "theseArentRight": ""
+    },
+    "userOrganizations": {
+      "noOrganizationsAvailable": "",
+      "selectAnOrganization": "",
+      "weAreSorry": ""
+    },
+    "worker": {
+      "backToSearch": "",
+      "certified": "",
+      "checkOutWorker": "",
+      "confirmInjury": "",
+      "livesOnSite": "",
+      "noCheckOut": "",
+      "noTrainingRequirementsMet": "",
+      "pleaseConfirm": "",
+      "reject": "",
+      "thisWorkerHasNot": "",
+      "wasThisWorkerInjured": "",
+      "yesReportAsInjured": ""
+    },
+    "workers": {
+      "checkedIn": "",
+      "checkInWorkers": "",
+      "identifyAWorker": "",
+      "livesOnSite": "",
+      "useTheButton": "",
+      "useTheForm": ""
+    },
+    "workersCount": "{{count}} STUB",
+    "workersCount_plural": "{{count}} STUB",
+    "workerWorkGroup": {
+      "compliantTime": "STUB {{date}}",
+      "noncompliant": ""
+    }
+  },
+  "subscriber": {
+    "compliancePro": "",
+    "dashboard": {
+      "clientScoresTile": {
+        "noClientScores": "",
+        "reminder": "",
+        "title": ""
+      },
+      "companyProfileIncomplete": {
+        "completeAdditionalCompanyInfoLink": "",
+        "completeAdditionalCompanyInfoMessage": "",
+        "completeCompanyProfileLink": "",
+        "completeCompanyProfileMessage": ""
+      },
+      "insuranceExpired": {
+        "expiredDate": "STUB_FR_TRANSLATION {{date}}",
+        "subtitle": "",
+        "title": ""
+      },
+      "insuranceExpiring": {
+        "expiredDate": "STUB_FR_TRANSLATION {{date}}",
+        "subtitle": "",
+        "title": ""
+      },
+      "offeringsTile": {
+        "accessSafetyMeetings": "",
+        "getHelp": "",
+        "getHired": "",
+        "title": "",
+        "viewTrainingOfferings": ""
+      },
+      "predictiveRanking": {
+        "contributingFactors": "",
+        "details": "",
+        "identifiedRisks": "",
+        "noDataAvailable": "",
+        "noPredictiveData": "",
+        "title": ""
+      },
+      "questionnaireTile": {
+        "complete": "",
+        "reviewAllAnswers": "",
+        "sectionsLeft": "",
+        "sectionsLeft_plural": "",
+        "showCompletedSections": "",
+        "title": ""
+      },
+      "releases": {
+        "subtitle": "",
+        "title": ""
+      },
+      "subscriptionsExpired": {
+        "expired": "",
+        "expiredDate": "STUB_FR_TRANSLATION {{date}}",
+        "pleaseCall": "",
+        "title": ""
+      },
+      "subscriptionsExpiring": {
+        "expiredDate": "STUB_FR_TRANSLATION {{date}}",
+        "title": ""
+      },
+      "verificationsExpired": {
+        "expiredDate": "STUB_FR_TRANSLATION {{date}}",
+        "subtitle": "",
+        "title": ""
+      },
+      "verificationsExpiring": {
+        "expiredDate": "STUB_FR_TRANSLATION {{date}}",
+        "subtitle": "",
+        "title": ""
+      },
+      "verificationsTile": {
+        "completeSections": "",
+        "expire": "",
+        "expiredDate": "STUB_FR_TRANSLATION {{date}}",
+        "expiresOn": "STUB_FR_TRANSLATION {{date}}",
+        "noVerifications": "",
+        "title": ""
+      },
+      "veriforceIntegration": {
+        "subtitle": "",
+        "title": ""
+      }
+    },
+    "questionnaire": {
+      "printSections": "",
+      "requiredQuestions": "",
+      "reviewComments": "",
+      "sections": "",
+      "sectionsCount": "{{remainingSectionCount}} STUB_FR_TRANSLATIONLATION",
+      "title": "",
+      "viewUnreadComments": ""
+    }
+  },
+  "trainingCompliance": {
+    "common": {
+      "addContractors": "",
+      "addEmployees": "",
+      "addJobTypes": "",
+      "addTrainingRequirements": "",
+      "allEmployees": "",
+      "allTraining": "",
+      "assignedEmployee": "",
+      "assignedEmployees": "",
+      "cancel": "",
+      "compliant": "",
+      "contractor": "",
+      "contractors": "",
+      "customTraining": "",
+      "deleteConfirmation": "",
+      "description": "",
+      "email": "",
+      "errorProcessingValidationRequest": "",
+      "generalInfo": "",
+      "generalInfoAndEdit": "",
+      "isNotUnique": "",
+      "isRequired": "STUB",
+      "jobType": "",
+      "jobTypes": "",
+      "mobile": "",
+      "newCustomTrainingRequirement": "",
+      "newJobType": "",
+      "newWorkGroup": "",
+      "noEmployeesAssigned": "",
+      "noExpiration": "",
+      "nonCompliant": "",
+      "noSearchResultsFound": "",
+      "noTrainingAssigned": "",
+      "noTrainingRequirementsAssigned": "",
+      "PECValidated": "",
+      "percentageOfTrainingCompliant": "",
+      "processingRequestError": "",
+      "removeTrainingNameConfirmation": "",
+      "requiredTraining": "",
+      "requirementStatus": "",
+      "selectOperator": "",
+      "selfValidated": "",
+      "standardTraining": "",
+      "submit": "",
+      "title": "",
+      "trainingCompliance": "",
+      "trainingRequirements": "",
+      "unassignItemConfirmation": "",
+      "workGroup": "",
+      "workGroups": ""
+    },
+    "components": {
+      "fileIsTooBig": "",
+      "itemAlreadyAdded": "",
+      "search": "",
+      "unassign": "",
+      "unknown": "",
+      "unsupportedFileType": ""
+    },
+    "contractor": {
+      "autocompleteEmployees": {
+        "selectEmployees": ""
+      },
+      "employeeTrainingRequirement": {
+        "completionDate": "",
+        "completionDateNeeded": "",
+        "deleteDocumentConfirmation": "",
+        "downloadingError": "",
+        "expirationDate": "",
+        "internalServerError": "",
+        "noneProvided": "",
+        "pendingUploads": "",
+        "recordOfTraining": "",
+        "trainingCompletionDate": "",
+        "uploadedDocuments": ""
+      },
+      "workGroup": {
+        "assignedJobTypes": "",
+        "noJobTypesAssigned": ""
+      },
+      "workGroupJobType": {
+        "assignEmployees": ""
+      },
+      "workGroupJobTypeEmployee": {
+        "work": ""
+      },
+      "workGroupJobTypeEmployees": {
+        "employees": ""
+      },
+      "workGroups": {
+        "assignedWorkGroups": "",
+        "noWorkGroupsAssigned": ""
+      }
+    },
+    "operator": {
+      "allContractors": "",
+      "allJobTypes": "",
+      "assignedEmployeeReport": {
+        "apply": "",
+        "assignedEmployees": "",
+        "clear": "",
+        "completionDate": "STUB: {{date}}",
+        "contractorName": "",
+        "employeeName": "",
+        "employees": "",
+        "expirationDate": "STUB: {{date}}",
+        "exportReport": "",
+        "hasDocumentation": "",
+        "noRecords": "",
+        "trainingRequirement": "",
+        "validation": ""
+      },
+      "autocompleteClientAssignedEmployees": {
+        "selectEmployees": ""
+      },
+      "autocompleteContractors": {
+        "selectContractors": ""
+      },
+      "autocompleteJobTypes": {
+        "selectJobTypes": ""
+      },
+      "autocompleteServiceRegions": {
+        "assignContractorsByIndustry": ""
+      },
+      "autocompleteTrainings": {
+        "selectRequirements": ""
+      },
+      "autocompleteWorkGroups": {
+        "selectWorkGroups": ""
+      },
+      "contractor": {
+        "allTrainings": "",
+        "office": ""
+      },
+      "contractors": {
+        "noContractorsReleasedToOrganization": ""
+      },
+      "jobType": {
+        "editJobType": "",
+        "jobTypeNotAssigned": "",
+        "newTrainingRequirement": "",
+        "removeJobType": ""
+      },
+      "jobTypes": {
+        "noJobTypesCreated": ""
+      },
+      "jobTypeTrainingRequirement": {
+        "removeTrainingRequirement": ""
+      },
+      "jobTypeTrainingRequirements": {
+        "requirements": ""
+      },
+      "training": {
+        "afterCompletion": "{{expiration}} STUB",
+        "day": "",
+        "descriptionAndInstructions": "",
+        "editTraining": "",
+        "expiration": "",
+        "expirationPeriod": "",
+        "month": "",
+        "no": "",
+        "OSHAReferences": "",
+        "recordOfTrainingUploadRequired": "",
+        "recordRequired": "",
+        "removeTraining": "",
+        "validation": "",
+        "week": "",
+        "year": "",
+        "yes": ""
+      },
+      "trainings": {
+        "newCustomTraining": "",
+        "noTrainingRequirementsCreated": ""
+      },
+      "workGroup": {
+        "addJobType": "",
+        "editWorkGroup": "",
+        "noJobTypesAssigned": "",
+        "removeWorkGroup": ""
+      },
+      "workGroupJobType": {
+        "`assignContractors`": "",
+        "assignedContractors": "",
+        "noContractorsAssigned": "",
+        "requiredTrainings": ""
+      },
+      "workGroupJobTypeContractor": {
+        "unassignContractor": ""
+      },
+      "workGroupJobTypeContractors": {
+        "contractors": ""
+      },
+      "workGroupJobTypeEmployee": {
+        "training": ""
+      },
+      "workGroupJobTypes": {
+        "jobTypes": ""
+      },
+      "workGroups": {
+        "noWorkGroupsCreated": ""
+      }
+    },
+    "workGroupJobType": {
+      "unassignJobType": ""
+    }
+  },
+  "user": {
+    "nav": {
+      "userProfile": ""
+    },
+    "profile": {
+      "almostDone": "",
+      "cancel": "",
+      "contactInfo": "",
+      "contactInformation": "",
+      "dateTaken": "",
+      "downloadProfile": "",
+      "editContactInfo": "",
+      "emailAddress": "",
+      "emergencyContact": "",
+      "emergencyContactInformation": "",
+      "emergencyContactName": "",
+      "emergencyContactPhoneNumber": "",
+      "emergencyContactRelation": "",
+      "expired": "",
+      "finishRegistration": "",
+      "middleInitial": "",
+      "moreInfo": "",
+      "noneProvided": "",
+      "noTraining": "",
+      "phoneNumber": "",
+      "save": "",
+      "status": "",
+      "trainingHistory": "",
+      "trainingLevel": "",
+      "updateContactInformation": "",
+      "valid": "",
+      "validatingCompany": ""
+    },
+    "sideNav": {
+      "eLearning": ""
+    }
+  },
+  "veriforceIntegration": {
+    "common": {
+      "PECOrganization": "",
+      "veriforceOrganization": ""
+    },
+    "logoAlt": "",
+    "organization": {
+      "authorizationError": "",
+      "cancel": "",
+      "confirmationMessage": "",
+      "confirmingUnlink": "",
+      "continue": "",
+      "linkOrganizations": "",
+      "linkYourOrganizations": "",
+      "login": {
+        "authorizationError": "",
+        "enterCredentials": "",
+        "linkAccounts": "",
+        "loginButton": "",
+        "loginError": "",
+        "password": "",
+        "PECMergedWithVeriforce": "",
+        "title": "",
+        "username": ""
+      },
+      "organizationAlreadyLinked": "",
+      "organizationCannotBeLinked": "",
+      "organizationsLinked": "",
+      "organizationTypeError": "",
+      "unlink": "",
+      "unlinkOrganizations": ""
+    },
+    "title": "",
+    "userOrganizations": {
+      "error": "",
+      "selectPecOrganization": ""
+    }
+  }
+}

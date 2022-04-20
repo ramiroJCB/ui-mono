@@ -1,0 +1,41 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Debug Tests",
+        "type": "node",
+        "request": "launch",
+        "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/react-scripts",
+        "args": ["test", "--runInBand", "--no-cache", "--watchAll=false"],
+        "cwd": "${workspaceRoot}",
+        "protocol": "inspector",
+        "console": "integratedTerminal",
+        "internalConsoleOptions": "neverOpen"
+      },
+      {
+        "name": "Debug Project - Chrome",
+        "type": "chrome",
+        "request": "launch",
+        "url": "http://localhost:3000",
+        "webRoot": "${workspaceRoot}/src",
+        "userDataDir": "${workspaceRoot}/.vscode/chrome",
+        "runtimeArgs": ["--disable-session-crashed-bubble", "--disable-infobars"],
+        "sourceMaps": true,
+        "smartStep": true,
+        "skipFiles": ["${workspaceFolder}/node_modules/**/*.js"],
+        "sourceMapPathOverrides": {
+          "webpack:///./src/*": "${webRoot}/*"
+        }
+      },
+      {
+        "name": "Debug Project - Firefox",
+        "type": "firefox",
+        "request": "launch",
+        "url": "http://localhost:3000",
+        "webRoot": "${workspaceRoot}/src",
+        "skipFiles": ["${workspaceFolder}/node_modules/**/*.js"],
+        "pathMappings": [{ "url": "webpack:///src/", "path": "${webRoot}/src/" }]
+      }
+    ]
+  }
+  

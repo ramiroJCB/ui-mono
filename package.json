@@ -1,0 +1,105 @@
+{
+  "name": "aion-ui-mono",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "applications/*",
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/jest",
+      "**/@types/jest"
+    ]
+  },
+  "scripts": {
+    "clean": "lerna clean",
+    "build": "lerna run build --stream",
+    "build:packages": "lerna run build:package --stream",
+    "build:ci": "node scripts/cibuild",
+    "start": "node scripts/start",
+    "test": "cross-env CI=true lerna run test --stream",
+    "gen-translation": "yarn gen-translation-en & yarn gen-translation-others",
+    "gen-translation-en": "i18next -c packages/aion-ui-i18next/configs/i18next-en-parser.config.js",
+    "gen-translation-others": "i18next -c packages/aion-ui-i18next/configs/i18next-others-parser.config.js"
+  },
+  "devDependencies": {
+    "@material-ui/codemod": "^4.5.0",
+    "@types/css-mediaquery": "0.1.0",
+    "@types/enzyme": "3.10.5",
+    "@types/enzyme-adapter-react-16": "^1.0.6",
+    "@types/faker": "^4.1.4",
+    "@types/jest": "24.0.21",
+    "@types/node": "^12.12.14",
+    "@types/redux-mock-store": "1.0.0",
+    "@typescript-eslint/eslint-plugin": "2.7.0",
+    "@typescript-eslint/parser": "2.7.0",
+    "axios-mock-adapter": "^1.17.0",
+    "babel-eslint": "10.0.3",
+    "chalk": "^3.0.0",
+    "chokidar-cli": "^1.2.1",
+    "concurrently": "^5.0.0",
+    "cross-env": "^5.2.0",
+    "css-mediaquery": "0.1.2",
+    "customize-cra": "^0.8.0",
+    "customize-cra-react-refresh": "^1.1.0",
+    "enzyme": "3.11.0",
+    "enzyme-adapter-react-16": "1.15.2",
+    "eslint": "^6.6.0",
+    "eslint-config-react-app": "5.0.2",
+    "eslint-plugin-flowtype": "3.13.0",
+    "eslint-plugin-import": "2.18.2",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-react": "7.16.0",
+    "eslint-plugin-react-hooks": "1.7.0",
+    "faker": "^4.1.0",
+    "fs-extra": "^7.0.1",
+    "http-proxy-middleware": "^0.19.1",
+    "husky": "^3.0.9",
+    "json-server": "^0.14.2",
+    "lerna": "^3.18.3",
+    "lint-staged": "^9.4.3",
+    "nodemon": "^1.18.9",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^1.19.1",
+    "react-app-rewired": "^2.1.4",
+    "react-test-renderer": "16.12.0",
+    "rimraf": "^2.6.3",
+    "source-map-explorer": "^2.0.1",
+    "source-map-loader": "^0.2.4",
+    "typescript": "3.8.2",
+    "utility-types": "^3.8.0",
+    "yargs": "^14.2.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "{applications,packages}/*/{fixtures,src}/**/*.{ts,tsx}": [
+      "eslint --fix",
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "prettier": {
+    "printWidth": 120,
+    "singleQuote": true
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "dependencies": {
+    "@formatjs/intl": "1.7.1",
+    "@formatjs/intl-getcanonicallocales": "^1.5.7",
+    "@formatjs/intl-locale": "^2.4.20",
+    "@formatjs/intl-pluralrules": "^4.0.12",
+    "@formatjs/intl-relativetimeformat": "^8.1.3",
+    "@formatjs/intl-utils": "^3.8.4",
+    "i18next": "^19.8.4",
+    "i18next-browser-languagedetector": "^6.0.1",
+    "i18next-parser": "^3.6.0",
+    "react-i18next": "^11.8.5",
+    "react-webcam-barcode-scanner": "^0.0.2-rc2"
+  }
+}

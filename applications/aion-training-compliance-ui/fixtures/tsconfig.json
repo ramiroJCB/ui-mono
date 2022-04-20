@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "lib": ["esnext"],
+    "target": "es5",
+    "module": "commonjs",
+    "outDir": "../api/build",
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "typeRoots": ["../../../node_modules/@types"]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "/api/v2/organizations\\(:organizationId\\)/sites\\(:siteId\\)/contacts\\(:contactId\\)": "/contacts/:contactId",
+  "/api/v2/organizations\\(:organizationId\\)/sites\\(:siteId\\)/workers\\(:workerId\\)": "/workers/:workerId",
+  "/api/v2/organizations\\(:organizationId\\)/sites\\(:siteId\\)": "/sites/:siteId",
+  "/api/v2/organizations\\(:organizationId\\)/sites": "/sites",
+  "/api/v2/organizations\\(:organizationId\\)/workerDetails?*": "/workerDetails",
+  "/api/v2/organizations/:organizationId/contractors/:contractorId": "/contractors/:contractorId",
+  "/api/v2/organizations/:organizationId/contractors/:contractorId/rankings": "/rankings",
+  "/api/v2/organizations": "/contractors",
+  "/api/v3.00/organizations\\(:organizationId\\)?*": "/organizations/:organizationId",
+  "/spapi/employees/:employeeId/*": "/$2",
+  "/spapi/*": "/$1",
+  "/api/v2/*": "/$1"
+}
